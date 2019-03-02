@@ -1,0 +1,24 @@
+spriteTypes = {
+
+#Ministers
+
+	
+	spriteType = {
+		name = "GFX_idea_rampant_paramilitaries"
+		texturefile = "gfx/interface/ideas/GER/rampant_paramilitaries.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_economic_troubles"
+		texturefile = "gfx/interface/ideas/GER/economic_troubles.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_black_reichswehr"
+		texturefile = "gfx/interface/ideas/GER/black_reichswehr.tga"
+	}
+	
+	
+
+
+}

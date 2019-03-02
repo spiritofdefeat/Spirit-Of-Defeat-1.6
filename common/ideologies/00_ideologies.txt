@@ -1,0 +1,422 @@
+ideologies = {
+
+	totalitarian_socialism = {
+
+        types = {
+
+            totalitarian_socialism_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_TOTALITARIAN_SOCIALISM"
+        }
+
+        color = { 30 0 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    vanguard_communism = {
+
+        types = {
+
+            vanguard_communism_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_VANGUARD_COMMUNISM"
+        }
+
+        color = { 60 0 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    libertarian_socialism = {
+
+        types = {
+
+            libertarian_socialism_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_LIBERTARIAN_SOCIALISM"
+        }
+
+        color = { 166 0 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    democratic_socialism = {
+
+        types = {
+
+            democratic_socialism_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_DEMOCRATIC_SOCIALISM"
+        }
+
+        color = { 152 38 38 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    social_democracy = {
+
+        types = {
+
+            social_democracy_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_SOCIAL_DEMOCRACY"
+        }
+
+        color = { 195 30 85 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    social_liberal = {
+
+        types = {
+
+            social_liberal_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_SOCIAL_LIBERAL"
+        }
+
+        color = { 255 170 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    classic_liberal = {
+
+        types = {
+
+            classic_liberal_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_CLASSIC_LIBERAL"
+        }
+
+        color = { 255 216 0 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    social_conservatism = {
+
+        types = {
+
+            social_conservatism_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_SOCIAL_CONSERVATISM"
+        }
+
+        color = { 0 0 255 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    authoritarian_democrat = {
+
+        types = {
+
+            authoritarian_democrat_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_AUTHORITARIAN_DEMOCRAT"
+        }
+
+        color = { 160 160 160 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    utilitarian_despot = {
+
+        types = {
+
+            utilitarian_despot_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_UTILITARIAN_DESPOT"
+        }
+
+        color = { 80 80 80 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+
+    national_collectivist = {
+
+        types = {
+
+            national_collectivist_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_NATIONAL_COLLECTIVIST"
+        }
+
+        color = { 40 40 40 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+	
+	nihilistic_extremism = {
+
+        types = {
+
+            nihilistic_extremism_subtype = {}
+
+        }
+
+        dynamic_faction_names = {
+            "FACTION_NAME_NIHILISTIC_EXTREMISM"
+        }
+
+        color = { 20 20 20 }
+
+        rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = no
+			can_join_factions = no
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		
+		faction_modifiers = {
+			#
+		}
+
+		can_be_boosted = no
+		can_collaborate = yes
+
+    }
+}
