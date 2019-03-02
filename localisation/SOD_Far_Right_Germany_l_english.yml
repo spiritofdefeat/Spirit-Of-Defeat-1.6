@@ -27,27 +27,43 @@ GER_nihilistic_extremism_party:0 "OC"
 GER_nihilistic_extremism_party_long:0 "Organisation Consul \n§g A radical militant organization, the far-right paramilitary has been led by Heinrich Himmler since mid-1935. Himmler drastically reshaped the organization's platform, arguing that only Neo-nihlism could redeem Germany's degeneracy; he avowed that everything, including life itself, is truly worthless. As such, the OC kill and torture with impunity in order to 'rid the world of decadence, degeneracy, and the filth of humanity' thus allowing them to fulfill their role as the ubermensch. Domination and control are the ultimate goals of Himmler and his cult-like following.§!"
 
 #Country Names
- GER_national_collectivist:0 "German Reich"
- GER_national_collectivist_DEF:0 "the German Reich"
- GER_nihilistic_extremism:0 "German Reich"
- GER_nihilistic_extremism_DEF:0 "the German Reich"
- GER_totalitarian_socialism:0 "German Volksreich"
- GER_totalitarian_socialism_DEF:0 "the German Volksreich"
- GER_utilitarian_despotism:0 "German Militärjunta"
- GER_utilitarian_despotism_DEF:0 "the German Militärjunta"
- GER_social_conservatism:0 "German Republic"
- GER_social_conservatism_DEF:0 "the German Republic"
+ GER_national_collectivist:0 "German Militärjunta"
+ GER_national_collectivist_DEF:0 "the German Militärjunta"
+ GER_nihilistic_extremism:0 "German Militärjunta"
+ GER_nihilistic_extremism_DEF:0 "the German Militärjunta"
+ GER_totalitarian_socialism:0 "German Militärjunta"
+ GER_totalitarian_socialism_DEF:0 "the German Militärjunta"
+ GER_utilitarian_despot:0 "German Militärjunta"
+ GER_utilitarian_despot_DEF:0 "the German Militärjunta"
+ GER_social_conservatism:0 "German Militärjunta"
+ GER_social_conservatism_DEF:0 "the German Militärjunta"
  GER_authoritarian_democrat:1 "German Empire"
  GER_authoritarian_democrat_DEF:1 "the German Empire"
- GER_vanguard_communism:0 "Socialist Republic of Germany"
- GER_vanguard_communism_DEF:0 "the Socialist Republic of Germany"
+ GER_democratic_socialism:0 "German Militärjunta
+ GER_democratic_socialism_DEF:0 "the German Militärjunta"
+ GER_libertarian_socialism:0 "German Militärjunta
+ GER_libertarian_socialism_DEF:0 "the German Militärjunta"
+ GER_social_democracy:0 "German Militärjunta
+ GER_social_democracy_DEF:0 "the German Militärjunta"
+ GER_social_liberal:0 "German Militärjunta
+ GER_social_liberal_DEF:0 "the German Militärjunta"
+ GER_classic_liberal:0 "German Militärjunta
+ GER_classic_liberal_DEF:0 "the German Militärjunta"
+ GER_vanguard_communism:0 "German Militärjunta
+ GER_vanguard_communism_DEF:0 "the German Militärjunta"
+ 
  GER_national_collectivist_ADJ:0 "German"
  GER_nihilistic_extremism_ADJ:0 "German"
  GER_totalitarian_socialism:0 "German"
  GER_social_conservatism_ADJ:0 "German"
+ GER_utilitarian_despot_ADJ:0 "German"
+ GER_democratic_socialism_ADJ:0 "German"
  GER_authoritarian_democrat_ADJ:0 "German"
+ GER_libertarian_socialism:0 "German"
+ GER_social_democracy_ADJ:0 "German"
+ GER_social_liberal_ADJ:0 "German"
+ GER_classic_liberal_ADJ:0 "German"
  GER_vanguard_communism_ADJ:0 "German"
- GER_utilitarian_despotism_ADJ:0 "German"
 
 #Ministers
 #should be reintegrated
