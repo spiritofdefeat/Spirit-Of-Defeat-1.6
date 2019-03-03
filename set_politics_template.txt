@@ -11,7 +11,6 @@ set_politics = {
 		
 		revolutionary_socialism = {
 			popularity = 0
-			banned = no #default is no
 		}
 		
 		democratic_socialism = { 
@@ -24,7 +23,6 @@ set_politics = {
 		
 		social_liberal = {
 			popularity = 0
-			banned = yes #default is no
 		}
 		
 		classic_liberal = { 
@@ -37,7 +35,6 @@ set_politics = {
 		
 		authoritarian_democrat = {
 			popularity = 0
-			banned = yes #default is no
 		}
 		
 		utilitarian_despot = { 
@@ -50,7 +47,6 @@ set_politics = {
 		
 		nihilistic_extremism = {
 			popularity = 0
-			banned = yes #default is no
 		}
 	}
 	
