@@ -5,16 +5,16 @@ ALB_national_collectivist_party:0 ""
 ALB_national_collectivist_party_long:0 ""
 ALB_vanguard_communism_party:0 ""
 ALB_vanguard_communism_party_long:0 ""
-ALB_social_conservatism_party:0 "Popular Party"
-ALB_social_conservatism_party_long:0 "Popular Party"
+ALB_social_conservatism_party:0 "Progressive Party"
+ALB_social_conservatism_party_long:0 "Progressive Party"
 ALB_utilitarian_despot_party:0 "Wied-Neuwied"
 ALB_utilitarian_despot_party_long:0 "House of Wied-Neuwied"
 ALB_authoritarian_democrat_party:0 "Zogists"
 ALB_authoritarian_democrat_party_long:0 "Zogist Group"
 ALB_social_democracy_party:0 ""
 ALB_social_democracy_party_long:0 ""
-ALB_social_liberal_party:0 "Progressive Party"
-ALB_social_liberal_party_long:0 "Progressive Party"
+ALB_social_liberal_party:0 "Popular Party"
+ALB_social_liberal_party_long:0 "Popular Party"
 ALB_classic_liberal_party:0 "Liberal Opposition"
 ALB_classic_liberal_party_long:0 "Liberal Opposition"
 ALB_totalitarian_socialism_party:0 ""
@@ -39,17 +39,17 @@ ALB_nihilistic_extremism_party_long:0 ""
  ALB_social_conservatism_DEF:0 "the Principality of Albania"
  ALB_authoritarian_democrat:1 "Principality of Albania"
  ALB_authoritarian_democrat_DEF:1 "the Principality of Albania
- ALB_democratic_socialism:0 "Principality of Albania
+ ALB_democratic_socialism:0 "Principality of Albania"
  ALB_democratic_socialism_DEF:0 "the Principality of Albania"
- ALB_revolutionary_socialism:0 "Principality of Albania
+ ALB_revolutionary_socialism:0 "Principality of Albania"
  ALB_revolutionary_socialism_DEF:0 "the Principality of Albania"
- ALB_social_democracy:0 "Principality of Albania
+ ALB_social_democracy:0 "Principality of Albania"
  ALB_social_democracy_DEF:0 "the Principality of Albania"
- ALB_social_liberal:0 "Principality of Albania
+ ALB_social_liberal:0 "Principality of Albania"
  ALB_social_liberal_DEF:0 "the Principality of Albania"
- ALB_classic_liberal:0 "Principality of Albania
+ ALB_classic_liberal:0 "Principality of Albania"
  ALB_classic_liberal_DEF:0 "the Principality of Albania"
- ALB_vanguard_communism:0 "Principality of Albania
+ ALB_vanguard_communism:0 "Principality of Albania"
  ALB_vanguard_communism_DEF:0 "the Principality of Albania"
  
  ALB_national_collectivist_ADJ:0 "Albanian"
@@ -75,3 +75,6 @@ ALB_nihilistic_extremism_party_long:0 ""
 
 #Events
 #should be reintegrated
+
+#Descriptions
+POLITICS_WILLIAM_DESC:0 "After being pressured to take the Albanian throne in 1913 Prince William of Wied(Vidi I or Skanderberg II) now resides over a political unstable and turbulent state. After compromising with Ahmet Muhtar Zogolli to end the 1925 coup attempt he is all now a ruler in name as Zog and his inner circle now control the nation in a dictatorship."

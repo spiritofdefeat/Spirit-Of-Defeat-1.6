@@ -35,7 +35,6 @@ set_politics = {
 		
 		social_liberal = {
 			popularity = 8.3
-			banned = yes #default is no
 		}
 		
 		classic_liberal = { 
@@ -48,7 +47,6 @@ set_politics = {
 		
 		authoritarian_democrat = {
 			popularity = 8.4
-			banned = yes #default is no
 		}
 		
 		utilitarian_despot = { 
@@ -61,7 +59,6 @@ set_politics = {
 		
 		nihilistic_extremism = {
 			popularity = 8.3
-			banned = yes #default is no
 		}
 	}
 	
