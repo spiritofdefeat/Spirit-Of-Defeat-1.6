@@ -70,16 +70,16 @@ ideologies = {
 
     }
 
-    libertarian_socialism = {
+    revolutionary_socialism = {
 
         types = {
 
-            libertarian_socialism_subtype = {}
+            revolutionary_socialism_subtype = {}
 
         }
 
         dynamic_faction_names = {
-            "FACTION_NAME_LIBERTARIAN_SOCIALISM"
+            "FACTION_NAME_REVOLUTIONARY_SOCIALISM"
         }
 
         color = { 166 0 0 }

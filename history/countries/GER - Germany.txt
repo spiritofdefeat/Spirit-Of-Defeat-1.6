@@ -108,7 +108,7 @@ set_politics = {
 			popularity = 14
 		}
 		
-		libertarian_socialism = {
+		revolutionary_socialism = {
 			popularity = 0
 			banned = yes #default is no
 		}

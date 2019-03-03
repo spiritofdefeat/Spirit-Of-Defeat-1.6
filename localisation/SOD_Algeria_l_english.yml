@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+ALG_national_collectivist_party:0 "MNA"
+ALG_national_collectivist_party_long:0 "Algerian National Movement"
+ALG_vanguard_communism_party:0 "PCA"
+ALG_vanguard_communism_party_long:0 "Algerian Communist Party"
+ALG_social_conservatism_party:0 "MNA"
+ALG_social_conservatism_party_long:0 "Algerian National Movement"
+ALG_utilitarian_despot_party:0 "MNA"
+ALG_utilitarian_despot_party_long:0 "Algerian National Movement"
+ALG_authoritarian_democrat_party:0 "MNA"
+ALG_authoritarian_democrat_party_long:0 "Algerian National Movement"
+ALG_social_democracy_party:0 "FLN"
+ALG_social_democracy_party_long:0 "National Libertation Front"
+ALG_social_liberal_party:0 "MNA"
+ALG_social_liberal_party_long:0 "Algerian National Movement"
+ALG_classic_liberal_party:0 "MNA"
+ALG_classic_liberal_party_long:0 "MNA"
+ALG_totalitarian_socialism_party:0 "PCA"
+ALG_totalitarian_socialism_party_long:0 "Algerian Communist Party"
+ALG_revolutionary_socialism_party:0 "PCA"
+ALG_revolutionary_socialism_party_long:0 "Algerian Communist Party"
+ALG_democratic_socialism_party:0 "FLN"
+ALG_democratic_socialism_party_long:0 "National Libertation Front"
+ALG_nihilistic_extremism_party:0 ""
+ALG_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ ALG_national_collectivist:0 "State of Algeria"
+ ALG_national_collectivist_DEF:0 "the State of Algeria"
+ ALG_nihilistic_extremism:0 "State of Algeria"
+ ALG_nihilistic_extremism_DEF:0 "the State of Algeria"
+ ALG_totalitarian_socialism:0 "State of Algeria"
+ ALG_totalitarian_socialism_DEF:0 "the State of Algeria"
+ ALG_utilitarian_despot:0 "State of Algeria"
+ ALG_utilitarian_despot_DEF:0 "the State of Algeria"
+ ALG_social_conservatism:0 "State of Algeria"
+ ALG_social_conservatism_DEF:0 "the State of Algeria"
+ ALG_authoritarian_democrat:1 "State of Algeria"
+ ALG_authoritarian_democrat_DEF:1 "the State of Algeria
+ ALG_democratic_socialism:0 "State of Algeria
+ ALG_democratic_socialism_DEF:0 "the State of Algeria"
+ ALG_revolutionary_socialism:0 "State of Algeria
+ ALG_revolutionary_socialism_DEF:0 "the State of Algeria"
+ ALG_social_democracy:0 "State of Algeria
+ ALG_social_democracy_DEF:0 "the State of Algeria"
+ ALG_social_liberal:0 "State of Algeria
+ ALG_social_liberal_DEF:0 "the State of Algeria"
+ ALG_classic_liberal:0 "State of Algeria
+ ALG_classic_liberal_DEF:0 "the State of Algeria"
+ ALG_vanguard_communism:0 "State of Algeria
+ ALG_vanguard_communism_DEF:0 "the State of Algeria"
+ 
+ ALG_national_collectivist_ADJ:0 "Algerian"
+ ALG_nihilistic_extremism_ADJ:0 "Algerian"
+ ALG_totalitarian_socialism:0 "Algerian"
+ ALG_social_conservatism_ADJ:0 "Algerian"
+ ALG_utilitarian_despot_ADJ:0 "Algerian"
+ ALG_democratic_socialism_ADJ:0 "Algerian"
+ ALG_authoritarian_democrat_ADJ:0 "Algerian"
+ ALG_revolutionary_socialism:0 "Algerian"
+ ALG_social_democracy_ADJ:0 "Algerian"
+ ALG_social_liberal_ADJ:0 "Algerian"
+ ALG_classic_liberal_ADJ:0 "Algerian"
+ ALG_vanguard_communism_ADJ:0 "Algerian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
