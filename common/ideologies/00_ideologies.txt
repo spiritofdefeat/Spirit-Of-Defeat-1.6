@@ -70,11 +70,11 @@ ideologies = {
 
     }
 
-    libertarian_socialism = {
+    revolutionary_socialism = {
 
         types = {
 
-            libertarian_socialism_subtype = {}
+            revolutionary_socialism_subtype = {}
 
         }
 

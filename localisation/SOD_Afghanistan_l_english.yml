@@ -19,8 +19,8 @@ AFG_classic_liberal_party:0 ""
 AFG_classic_liberal_party_long:0 ""
 AFG_totalitarian_socialism_party:0 ""
 AFG_totalitarian_socialism_party_long:0 ""
-AFG_libertarian_socialism_party:0 ""
-AFG_libertarian_socialism_party_long:0 ""
+AFG_revolutionary_socialism_party:0 ""
+AFG_revolutionary_socialism_party_long:0 ""
 AFG_democratic_socialism_party:0 ""
 AFG_democratic_socialism_party_long:0 ""
 AFG_nihilistic_extremism_party:0 ""
@@ -41,8 +41,8 @@ AFG_nihilistic_extremism_party_long:0 ""
  AFG_authoritarian_democrat_DEF:1 "the Kingdom of Afghanistan
  AFG_democratic_socialism:0 "Kingdom of Afghanistan
  AFG_democratic_socialism_DEF:0 "the Kingdom of Afghanistan"
- AFG_libertarian_socialism:0 "Kingdom of Afghanistan
- AFG_libertarian_socialism_DEF:0 "the Kingdom of Afghanistan"
+ AFG_revolutionary_socialism:0 "Kingdom of Afghanistan
+ AFG_revolutionary_socialism_DEF:0 "the Kingdom of Afghanistan"
  AFG_social_democracy:0 "Kingdom of Afghanistan
  AFG_social_democracy_DEF:0 "the Kingdom of Afghanistan"
  AFG_social_liberal:0 "Kingdom of Afghanistan
@@ -59,7 +59,7 @@ AFG_nihilistic_extremism_party_long:0 ""
  AFG_utilitarian_despot_ADJ:0 "Afghan"
  AFG_democratic_socialism_ADJ:0 "Afghan"
  AFG_authoritarian_democrat_ADJ:0 "Afghan"
- AFG_libertarian_socialism:0 "Afghan"
+ AFG_revolutionary_socialism:0 "Afghan"
  AFG_social_democracy_ADJ:0 "Afghan"
  AFG_social_liberal_ADJ:0 "Afghan"
  AFG_classic_liberal_ADJ:0 "Afghan"
