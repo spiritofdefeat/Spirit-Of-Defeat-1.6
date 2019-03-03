@@ -79,7 +79,7 @@ ideologies = {
         }
 
         dynamic_faction_names = {
-            "FACTION_NAME_LIBERTARIAN_SOCIALISM"
+            "FACTION_NAME_REVOLUTIONARY_SOCIALISM"
         }
 
         color = { 166 0 0 }
