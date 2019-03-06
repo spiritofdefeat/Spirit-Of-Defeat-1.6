@@ -1,0 +1,32 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = vanguard_communism
+			ROOT = {
+				OR = {
+					has_government = national_collectivist
+					has_government = social_conservatism
+				}
+			}
+		}
+		AND = {
+			has_government = social_conservatism
+			ROOT = {
+				OR = {
+					has_government = vanguard_communism
+					has_government = national_collectivist
+				}
+			}
+		}
+		AND = {
+			has_government = national_collectivist
+			ROOT = {
+				OR = {
+					has_government = social_conservatism
+					has_government = vanguard_communism
+				}
+			}
+		}
+	}
+}
