@@ -50,7 +50,7 @@ set_politics = {
 		}
 		
 		authoritarian_democrat = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		utilitarian_despot = { 
@@ -74,6 +74,8 @@ set_politics = {
 }
 
 set_stability = 0.50
+
+become_exiled_in = { target = GER legitimacy = 50 }
 
 
 

@@ -428,7 +428,7 @@ ideologies = {
 			can_join_factions = no
 		}
 		
-		can_host_government_in_exile = yes
+		can_host_government_in_exile = no
 		
 		modifiers = {
 			join_faction_tension = 0.80

@@ -26,7 +26,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "political_title"
-			position = { x = 20 y = 8 }
+			position = { x = 45 y = 8 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
@@ -49,8 +49,8 @@ guiTypes = {
 			position = { x= 19 y = 305 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
-		}			
-		
+		}
+
 		containerWindowType = {
 			name = "chart_explanation"
 			position = { x = 18 y = 116 }
@@ -64,9 +64,9 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "parties_grid"
-				position = { x = 260 y = 184 }
+				position = { x = 260 y = 185 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 230 height = 16 }
+				slotsize = { width = 230 height = 14 }
 				format = "UPPER_LEFT"
 			}
 		}
@@ -153,23 +153,20 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 3 y = -2 }
-				orientation = UPPER_LEFT
-				font = "hoi_22typewriter"
+				position = { x = 9 y = 8 }
+				font = "hoi_18mbs"
 				text = "ideology"
-				maxWidth = 159
-				maxHeight = 100
-				format = center
+				maxWidth = 155
+				maxHeight = 20
 			}
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 3 y = 33 }
+				position = { x = 9 y = 34 }
 				font = "hoi_16mbs"
 				text = "elections"
-				maxWidth = 159
-				maxHeight = 100
-				format = center
+				maxWidth = 155
+				maxHeight = 20
 			}
 			
 			instantTextboxType = {
@@ -188,7 +185,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_dismantle_faction_button"
 				#buttonFont = "hoi_16mbs"
 				#buttonText = "DIPLOMACY_DISMANTLE_FACTION_TITLE"
-			}	
+			}			
 			
 		}
 						
@@ -348,8 +345,17 @@ guiTypes = {
 			
 			buttonType = {
 				name = "drop_continuous_focus_button"
-				position = { x = 322 y = 54 }
-				spriteType = "GFX_close_button_small"
+				position = { x = 327 y = 12 }
+				spriteType = "GFX_nf_close_button"
+				scale = 0.9
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "drop_focus_button"
+				position = { x = 327 y = 12 }
+				spriteType = "GFX_nf_close_button"
+				scale = 0.9
 				clicksound = click_default
 			}
 			
@@ -416,7 +422,7 @@ guiTypes = {
 			position = { x = 18 y = 58 }
 			spriteType = "GFX_leader_unknown"
 		}
-
+		
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
@@ -424,7 +430,6 @@ guiTypes = {
 			allwaystransparent = yes
 		}
 
-		
 		instantTextboxType = {
 			name = "leader_name"
 			position = { x = 18 y = 271 }
@@ -438,7 +443,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "ideas"
-			position = { x = 0 y = 500 }
+			position = { x = 0 y = 475 }
 			size = { width=100%% height=100%% }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 14 bottom = 13}
@@ -482,50 +487,65 @@ guiTypes = {
 		}
 
 
-		iconType ={
-			name ="politics_bottom"
-			spriteType = "GFX_main_screens_bottom"
-			position = { x = -2 y = 950 }
-			Orientation = "UPPER_LEFT"
-			scale = 1.02
-		}
+#		iconType ={
+#			name ="politics_bottom"
+#			spriteType = "GFX_main_screens_bottom"
+#			position = { x = 40 y = 450 }
+#			Orientation = "UPPER_LEFT"
+#			scale = 0.5
+#		}
 
 		iconType = {
 			name = "rules"
 			spriteType = "GFX_rules_sum_icon"
 			position = { x = 460 y = 7 }
 		}
-	
-		buttonType = {
-			name = "manage_occupied_button"
-			position = { x = 20 y = 410 }
-			quadTextureSprite = "GFX_button_221x34"
-			buttonFont = "hoi_16mbs"
-			Orientation = "UPPER_LEFT"
-			buttonText = "MANAGE_OCCUPIED_TERRITORIES"
-		}			
 
 		buttonType = {
-			name = "show_subjects_button"
-			position = { x = 20 y = 380 }
-			quadTextureSprite = "GFX_button_221x34"
+			name = "manage_occupied_button"
+			position = { x = 15 y = 440 }
+			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
-			buttonText = "MANAGE_SUBJECTS"
+		}
+
+		instantTextboxType = {
+			name = "manage_occupied_button_text"
+			position = { x = 54 y = 448 }
+			font = "hoi_16mbs"
+			text = "MANAGE_OCCUPIED_TERRITORIES"
+			alwaystransparent = yes
 		}
 
 		buttonType = {
+			name = "show_subjects_button"
+			position = { x = -535 y = 405 }
+			quadTextureSprite = "GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_RIGHT"
+		}
+
+		instantTextboxType = {
+			name = "show_subjects_button_text"
+			position = { x = -490 y = 412 }
+			font = "hoi_16mbs"
+			text = "MANAGE_SUBJECTS"
+			Orientation = "UPPER_RIGHT"
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
 			name = "show_exiles_button"
-			position = { x = 20 y = 442 }
+			position = { x = 15 y = 370 }
 			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 			format = right
 		}
-		
+
 		instantTextboxType = {
 			name = "manage_exiled_governments"
-			position = { x = 55 y = 450 }
+			position = { x = 45 y = 378 }
 			font = "hoi_16mbs"
 			maxWidth = 130
 			maxHeight = 20
@@ -534,25 +554,24 @@ guiTypes = {
 			alwaystransparent = yes
 			format = center
 		}
-		
+				
 		iconType = {
 			name = "icon_exiled_governments"
 			spriteType = "GFX_icon_exiled_governments"
-			position = { x = 23 y = 442 }
+			position = { x = 17 y = 371 }
 		}
-		
+
 		iconType = {
 			name = "icon_occupied_territories"
 			spriteType = "GFX_icon_occupied_territories"
-			position = { x = 23 y = 410 }
+			position = { x = 16 y = 441 }
 		}
-		
+
 		iconType = {
 			name = "icon_manage_subjects"
 			spriteType = "GFX_icon_manage_subjects"
-			position = { x = 23 y = 381 }
+			position = { x = 17 y = 406 }
 		}
-		
 	}
 	
 	containerWindowType = {
@@ -594,15 +613,15 @@ guiTypes = {
 		}
 	}
 	
-	# This also taken from kaiserreich, along with the appropriate GFX
+	
 	containerWindowType = {
 		name = "political_ideas_window"
-		position = { x = -356 y = 80 }	
-		show_position = { x = 544 y = 80 }
+		position = { x = -356 y = 100 }	
+		show_position = { x = 544 y = 100 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=730 height=100%% }
+		size = { width=500 height=540 }
 		show_sound = open_sub_window
 		
 		background = {
@@ -612,31 +631,31 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "title"
-			position = { x = 10 y = 4 }
+			position = { x = 0 y = 4 }
 			font = "hoi_20b"
 			text = "Economic Laws"
 			maxWidth = 450
 			maxHeight = 20
-			format = left
+			format = center
 		}
 		instantTextboxType = {
 			name = "switch"
-			position = { x = 10 y = 26 }
+			position = { x = 0 y = 26 }
 			font = "hoi_18b"
 			text = "Switch out Henschel"
 			maxWidth = 450
 			maxHeight = 20
-			format = left
+			format = center
 		}
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 50 }
-			size = { width=730 height=100%% }	
+			size = { width=500 height=100%% }	
 			
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = 0 }
-				size = { width=730 height=-4 }
+				size = { width=500 height=-4 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 4 bottom = 12}	
 
@@ -655,8 +674,8 @@ guiTypes = {
 					name = "box"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 145 }
-					max_slots_horizontal = 3
+					slotsize = { width = 231 height = 75 }
+					max_slots_horizontal = 2
 					add_horizontal = yes
 					format = "UPPER_LEFT"
 				}
@@ -732,8 +751,8 @@ guiTypes = {
 			spriteType = "GFX_ongoing_generic_glow_yellow"
 			scale = 0.65			
 			alwaystransparent = yes
-		}	
-
+		}		
+		
 		buttonType = {
 			name = "add_idea_button"
 			position = { x = 0 y = 0 }
@@ -751,10 +770,10 @@ guiTypes = {
 		}
 		
 	}
-	# This also taken from Kaiserreich, as well as the idea entry gfx
+	
 	containerWindowType = {
 		name = "political_selectable_idea_entry"
-		size = { width = 231 height = 148 }
+		size = { width = 231 height = 74 }
 		clipping = no
 			
 		background = {
@@ -765,7 +784,7 @@ guiTypes = {
 			
 		iconType = {
 			name = "icon"
-			position = { x = 42 y = 80 }
+			position = { x = 42 y = 38 }
 			spriteType = "GFX_placeholder_bordered"
 			centerposition = yes
 			alwaystransparent = yes
@@ -782,19 +801,19 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 10 y = 10 }
+			position = { x = 66 y = 10 }
 			font = "hoi_18mbs"
 			fixedsize = yes			
 			text = "name"
-			maxWidth = 220
-			maxHeight = 38
+			maxWidth = 160
+			maxHeight = 18
 			format = center	
 			alwaystransparent = yes			
 		}
 		
 		gridboxtype = {
 			name = "traits_grid"
-			position = { x = 90 y = 48 }
+			position = { x = 90 y = 28 }
 			size = { width = 231 height = 100%% }
 			slotsize = { width = 200 height = 15 }
 			add_horizontal = no
@@ -803,7 +822,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = -90 y = 110 }
+			position = { x = 80 y = 47 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
@@ -812,8 +831,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
-	
 	
 	containerWindowType = {
 		name = "political_party_info_entry"
@@ -822,19 +839,19 @@ guiTypes = {
 
 		iconType = {
 			name = "leading_pol_party_bg"
-			position = { x = 61 y = 9 }
+			position = { x = 60 y = 5 }
 			spriteType = "GFX_leading_pol_party_bg"
 		}		
 		
 		iconType = {
 			name = "color_block_bg"
-			position = { x = 59 y = 6 }
+			position = { x = 60 y = 2 }
 			spriteType = "GFX_pol_party_colour_bg"
 		}
 		
 		iconType = {
 			name = "color_block"
-			position = { x = 63 y = 10 }
+			position = { x = 64 y = 6 }
 			spriteType = "GFX_pol_party_colour"
 		}
 		
@@ -849,7 +866,7 @@ guiTypes = {
 			
 		instantTextboxType = {
 			name = "name"
-			position = { x = 80 y = 8 }
+			position = { x = 82 y = 4 }
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
@@ -949,7 +966,7 @@ guiTypes = {
 		}		
 		
 	}
-	
+		
 	containerWindowType = {
 		name = "subject_item"
 		position = { x = 0 y = 0}
@@ -1058,10 +1075,266 @@ guiTypes = {
 			}
 		}
 	}
+
+	containerWindowType = {
+		name = "exiles_window"
+		position = { x = -356 y = 80 }	
+		show_position = { x = 537 y = 80 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		size = { width= 549 height=620 }
+		clipping = yes
+		show_sound = open_sub_window
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_plain_bg"
+			}
+		
+		containerWindowType = {
+			name = "exile_items_window"
+			position = { x = -356 y = 78 }	
+			show_position = { x = 2 y = 37 }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			size = { width=548 height=100%% }
+			clipping = yes
+			verticalScrollbar = "right_vertical_slider"
+			margin = { top = 15 bottom = 15}
+		
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_border"
+			}
+
+			gridboxtype = {
+				name = "exiles_grid"
+				position = { x = 14 y = 2 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 494 height = 95 }
+				max_slots_horizontal = 1
+				format = UPPER_LEFT
+			}
+		}
+		
+		iconType ={
+			name ="manage_occupied_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 7 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		buttonType = {
+			name = "close_button"
+			position = { x = -40 y = 7 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+
+		instantTextboxType = {
+			name = "manage_occupied_title"
+			position = { x = 37 y = 5 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "MANAGE_EXILES_HEADER"
+			maxWidth = 340
+			maxHeight = 20
+			format = left
+		}		
+		
+	}
+
+	containerWindowType = {
+		name = "exile_item"
+		position = { x = 0 y = 0 }
+		size = { width=494 height=95 }
+		clipping = no
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_government_in_exile_entry_bg"
+		}
+		
+		buttonType = {
+			name = "exile_country_flag"
+			quadTextureSprite ="GFX_player_flag"
+			position = { x= 10 y = 5 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
+			name = "large_flag_frame"
+			spriteType = "GFX_large_flag_frame"
+			position = { x= 7 y = 5 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "exile_country_name"
+			position = { x = 107 y = 10 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 150
+			maxHeight = 20
+			format = left
+			vertical_alignment = center			
+		}
+
+		containerWindowType = {
+			name = "manpower_container"
+			position = { x = 96 y = 30 }
+
+			iconType = {
+				name = "manpower_icon"
+				spriteType = "GFX_manpower_icon"
+				position = { x= 7 y = 0 }
+				Orientation = "UPPER_LEFT"				
+			}
+
+			instantTextboxType = {
+				name = "manpower_text"
+				position = { x = 40 y = 7 }
+				font = "hoi_18mbs"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 200
+				maxHeight = 20
+				text = "1000000"
+				format = left
+				vertical_alignment = center			
+			}
+		}
+
+		iconType = {
+			name = "player_icon"
+			position = { x = 233 y = 10 }
+			spriteType ="GFX_accept_decline_icon"
+			scale = 1
+			frame = 3
+			pdx_tooltip = GIE_PLAYER_CONTROLLED
+		}
+
+		containerWindowType = {
+			name = "exile_legitimacy_progress_container"
+			position = { x = -230 y = 4 }
+			Orientation = UPPER_RIGHT
+			
+			iconType = {
+				name = "exile_legitimacy_progress_bg"
+				spriteType = "GFX_government_in_exile_progressbar_bg"
+				position = { x = 0 y = 0 }
+				Orientation = UPPER_RIGHT
+			}
+
+			iconType = {
+				name = "exile_legitimacy_progress"
+				spriteType = "GFX_exile_legitimacy_progressbar_long"
+				position = { x = 4 y = 36 }
+				Orientation = UPPER_RIGHT
+				frame = 100
+			}
+
+			iconType = {
+				name = "exile_division_recruitment"
+				spriteType = "GFX_government_in_exile_reward_icons"
+				position = { x = 15 y = 4 }
+				Orientation = UPPER_RIGHT
+				frame = 1
+			}
+
+			iconType = {
+				name = "exile_airwing_recruitment"
+				spriteType = "GFX_government_in_exile_reward_icons"
+				position = { x = 103 y = 4 }
+				Orientation = UPPER_RIGHT
+				frame = 3
+			}
+
+			iconType = {
+				name = "exile_army_leader_recruitment_1"
+				spriteType = "GFX_government_in_exile_reward_icons"
+				position = { x = 60 y = 4 }
+				Orientation = UPPER_RIGHT
+				frame = 2
+			}
+
+			iconType = {
+				name = "exile_army_leader_recruitment_2"
+				spriteType = "GFX_government_in_exile_reward_icons"
+				position = { x = 146 y = 4 }
+				Orientation = UPPER_RIGHT
+				frame = 2
+			}
+
+			iconType = {
+				name = "exile_army_leader_recruitment_3"
+				spriteType = "GFX_government_in_exile_reward_icons"
+				position = { x = 190 y = 4 }
+				Orientation = UPPER_RIGHT
+				frame = 2
+			}
+		}
+
+		buttonType = {
+			name = "reinstate_btn"
+			position = { x = 6 y = 55}
+			quadTextureSprite ="GFX_government_in_exile_reinstate_button_bg"
+			Orientation = UPPER_LEFT
+	 		buttonFont = "hoi_18mbs"
+			buttonText = "REINSTATE_EXILE"
+		}
+
+		instantTextboxType = {
+			name = "occupier_text"
+			position = { x = -340 y = -25 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 180
+			maxHeight = 5
+			fixedsize = yes
+			format = left
+			Orientation = LOWER_RIGHT					
+		}
+
+		OverlappingElementsBoxType = {
+			name = "occupier_flags"
+			position = { x = -225 y = -37 }
+			size = { x = 220 y = 32 }
+			format = left
+			spacing = 1.0
+			Orientation = LOWER_RIGHT
+		}
+	}
+
+	containerWindowType = {
+		name = "occupier_flag_entry"
+		position = { x=0 y=0}	
+		size = { width=45 height=31 }
+		
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 50 y = 6 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="small_flag_frame_thin"
+			spriteType = "GFX_small_flag_frame_thin"
+			position = { x= 48 y = 4 }
+			alwaystransparent = yes
+		}		
+	}
 	
 	containerWindowType = {
 		name = "manage_occupied_window"
-		position = { x = 0 y = 80 }	
+		position = { x = -356 y = 80 }	
 		show_position = { x = 537 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
@@ -1104,7 +1377,7 @@ guiTypes = {
 			format = left
 		}
 		
-		containerWindowType = {
+	containerWindowType = {
 		name = "occupied_entries_window"
 		position = { x = -356 y = 78 }	
 		show_position = { x = 2 y = 37 }
