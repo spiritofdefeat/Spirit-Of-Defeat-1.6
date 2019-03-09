@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+BOL_national_collectivist_party:0 "PN"
+BOL_national_collectivist_party_long:0 "Partido Nacionalista"
+BOL_vanguard_communism_party:0 ""
+BOL_vanguard_communism_party_long:0 ""
+BOL_social_conservatism_party:0 "PRG"
+BOL_social_conservatism_party_long:0 "Partido Republicano Genuino"
+BOL_utilitarian_despot_party:0 "EB"
+BOL_utilitarian_despot_party_long:0 "Ejército de Bolivia"
+BOL_authoritarian_democrat_party:0 "PRS"
+BOL_authoritarian_democrat_party_long:0 "Partido Republicano Socialista"
+BOL_social_democracy_party:0 ""
+BOL_social_democracy_party_long:0 ""
+BOL_social_liberal_party:0 ""
+BOL_social_liberal_party_long:0 ""
+BOL_classic_liberal_party:0 "PL"
+BOL_classic_liberal_party_long:0 "Partido Liberal"
+BOL_totalitarian_socialism_party:0 ""
+BOL_totalitarian_socialism_party_long:0 ""
+BOL_revolutionary_socialism_party:0 ""
+BOL_revolutionary_socialism_party_long:0 ""
+BOL_democratic_socialism_party:0 ""
+BOL_democratic_socialism_party_long:0 ""
+BOL_nihilistic_extremism_party:0 ""
+BOL_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ BOL_national_collectivist:0 "Republic of Bolivia"
+ BOL_national_collectivist_DEF:0 "the Republic of Bolivia"
+ BOL_nihilistic_extremism:0 "Republic of Bolivia"
+ BOL_nihilistic_extremism_DEF:0 "the Republic of Bolivia"
+ BOL_totalitarian_socialism:0 "Republic of Bolivia"
+ BOL_totalitarian_socialism_DEF:0 "the Republic of Bolivia"
+ BOL_utilitarian_despot:0 "Republic of Bolivia"
+ BOL_utilitarian_despot_DEF:0 "the Republic of Bolivia"
+ BOL_social_conservatism:0 "Republic of Bolivia"
+ BOL_social_conservatism_DEF:0 "the Republic of Bolivia"
+ BOL_authoritarian_democrat:1 "Republic of Bolivia"
+ BOL_authoritarian_democrat_DEF:1 "the Republic of Bolivia
+ BOL_democratic_socialism:0 "Republic of Bolivia"
+ BOL_democratic_socialism_DEF:0 "the Republic of Bolivia"
+ BOL_revolutionary_socialism:0 "Republic of Bolivia"
+ BOL_revolutionary_socialism_DEF:0 "the Republic of Bolivia"
+ BOL_social_democracy:0 "Republic of Bolivia"
+ BOL_social_democracy_DEF:0 "the Republic of Bolivia"
+ BOL_social_liberal:0 "Republic of Bolivia"
+ BOL_social_liberal_DEF:0 "the Republic of Bolivia"
+ BOL_classic_liberal:0 "Republic of Bolivia"
+ BOL_classic_liberal_DEF:0 "the Republic of Bolivia"
+ BOL_vanguard_communism:0 "Republic of Bolivia"
+ BOL_vanguard_communism_DEF:0 "the Republic of Bolivia"
+ 
+ BOL_national_collectivist_ADJ:0 "Bolivian"
+ BOL_nihilistic_extremism_ADJ:0 "Bolivian"
+ BOL_totalitarian_socialism:0 "Bolivian"
+ BOL_social_conservatism_ADJ:0 "Bolivian"
+ BOL_utilitarian_despot_ADJ:0 "Bolivian"
+ BOL_democratic_socialism_ADJ:0 "Bolivian"
+ BOL_authoritarian_democrat_ADJ:0 "Bolivian"
+ BOL_revolutionary_socialism:0 "Bolivian"
+ BOL_social_democracy_ADJ:0 "Bolivian"
+ BOL_social_liberal_ADJ:0 "Bolivian"
+ BOL_classic_liberal_ADJ:0 "Bolivian"
+ BOL_vanguard_communism_ADJ:0 "Bolivian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

@@ -8,4 +8,4 @@ tags={
 	"Gameplay"
 	"Ideologies"
 }
-supported_version="1.6.0"
+supported_version="1.6.*"
