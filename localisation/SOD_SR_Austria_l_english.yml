@@ -1,0 +1,81 @@
+﻿l_english: 
+
+#Parties
+SRO_national_collectivist_party:0 ""
+SRO_national_collectivist_party_long:0 ""
+SRO_vanguard_communism_party:0 "KPÖ"
+SRO_vanguard_communism_party_long:0 "Kommunistische Partei Österreichs"
+SRO_social_conservatism_party:0 ""
+SRO_social_conservatism_party_long:0 ""
+SRO_utilitarian_despot_party:0 ""
+SRO_utilitarian_despot_party_long:0 ""
+SRO_authoritarian_democrat_party:0 ""
+SRO_authoritarian_democrat_party_long:0 ""
+SRO_social_democracy_party:0 "SDAPÖ"
+SRO_social_democracy_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
+SRO_social_liberal_party:0 ""
+SRO_social_liberal_party_long:0 ""
+SRO_classic_liberal_party:0 ""
+SRO_classic_liberal_party_long:0 ""
+SRO_totalitarian_socialism_party:0 "KPÖ"
+SRO_totalitarian_socialism_party_long:0 "Kommunistische Partei Österreichs"
+SRO_revolutionary_socialism_party:0 "RS"
+SRO_revolutionary_socialism_party_long:0 "Revolutionäre Schutzbund"
+SRO_democratic_socialism_party:0 "SDAPÖ"
+SRO_democratic_socialism_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs"
+SRO_nihilistic_extremism_party:0 ""
+SRO_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ SRO_national_collectivist:0 "Socialist Republic of Austria"
+ SRO_national_collectivist_DEF:0 "the Socialist Republic of Austria"
+ SRO_nihilistic_extremism:0 "Socialist Republic of Austria"
+ SRO_nihilistic_extremism_DEF:0 "the Socialist Republic of Austria"
+ SRO_totalitarian_socialism:0 "Socialist Republic of Austria"
+ SRO_totalitarian_socialism_DEF:0 "the Socialist Republic of Austria"
+ SRO_utilitarian_despot:0 "Socialist Republic of Austria"
+ SRO_utilitarian_despot_DEF:0 "the Socialist Republic of Austria"
+ SRO_social_conservatism:0 "Socialist Republic of Austria"
+ SRO_social_conservatism_DEF:0 "the Socialist Republic of Austria"
+ SRO_authoritarian_democrat:1 "Socialist Republic of Austria"
+ SRO_authoritarian_democrat_DEF:1 "the Socialist Republic of Austria
+ SRO_democratic_socialism:0 "Socialist Republic of Austria"
+ SRO_democratic_socialism_DEF:0 "the Socialist Republic of Austria"
+ SRO_revolutionary_socialism:0 "Socialist Republic of Austria"
+ SRO_revolutionary_socialism_DEF:0 "the Socialist Republic of Austria"
+ SRO_social_democracy:0 "Socialist Republic of Austria"
+ SRO_social_democracy_DEF:0 "the Socialist Republic of Austria"
+ SRO_social_liberal:0 "Socialist Republic of Austria"
+ SRO_social_liberal_DEF:0 "the Socialist Republic of Austria"
+ SRO_classic_liberal:0 "Socialist Republic of Austria"
+ SRO_classic_liberal_DEF:0 "the Socialist Republic of Austria"
+ SRO_vanguard_communism:0 "Socialist Republic of Austria"
+ SRO_vanguard_communism_DEF:0 "the Socialist Republic of Austria"
+ 
+ SRO_national_collectivist_ADJ:0 "Austrian"
+ SRO_nihilistic_extremism_ADJ:0 "Austrian"
+ SRO_totalitarian_socialism:0 "Austrian"
+ SRO_social_conservatism_ADJ:0 "Austrian"
+ SRO_utilitarian_despot_ADJ:0 "Austrian"
+ SRO_democratic_socialism_ADJ:0 "Austrian"
+ SRO_authoritarian_democrat_ADJ:0 "Austrian"
+ SRO_revolutionary_socialism:0 "Austrian"
+ SRO_social_democracy_ADJ:0 "Austrian"
+ SRO_social_liberal_ADJ:0 "Austrian"
+ SRO_classic_liberal_ADJ:0 "Austrian"
+ SRO_vanguard_communism_ADJ:0 "Austrian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+POLITICS_RICHARD_DESC:0 "Known as the father of the revolution, Richard Bernaschek was key in igniting the Austrian Revolution stemming from the civil war prior. With the support of communists Engelbert Dollfuß was overthrown and with him the end of the short lived Federal State of Austria. The Socialist Republic of Austria was established in its place with the KPÖ insisting Bernaschek become Head of State despite the objection from the more moderate social democrats."
+ 

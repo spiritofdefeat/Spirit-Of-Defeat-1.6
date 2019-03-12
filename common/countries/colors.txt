@@ -54,6 +54,7 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
+
 	color = rgb { 207 157 59 }
 	color_ui = rgb { 255 255 122 }
 }
@@ -63,6 +64,7 @@ ITA = {
 }
 ROM = {
 	color = rgb { 209 171 18 }
+
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
@@ -74,7 +76,9 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
+
 	color = rgb { 178 155 117 }
+
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
@@ -534,4 +538,10 @@ D14 = {
 D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
+}
+
+##New Nations
+SRO = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
 }
