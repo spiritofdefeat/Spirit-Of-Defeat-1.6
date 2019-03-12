@@ -1,0 +1,29 @@
+state={
+	id=802
+	name="STATE_802"
+	resources={
+		chromium=7.000
+		aluminium=6.000
+	}
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+	
+		add_core_of = YUG
+		add_core_of = MAC
+
+	}
+
+	provinces={
+		3922 6940 9849 9874
+	}
+	manpower=74200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

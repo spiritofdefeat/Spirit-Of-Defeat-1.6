@@ -1,0 +1,23 @@
+
+state={
+	id=797
+	name="STATE_797"
+	manpower = 325594
+	
+	state_category = town
+	
+	history={
+		owner = FRA
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SYR
+
+	}
+
+	
+	provinces={
+		1088 10087
+	}
+}

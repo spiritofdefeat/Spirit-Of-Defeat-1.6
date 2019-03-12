@@ -1,0 +1,19 @@
+state={
+	id=800
+	name="STATE_800"
+	manpower = 80100
+	
+	state_category = rural
+	
+	history={
+		add_core_of = SAU
+        add_core_of = JOR
+		owner = JOR
+		
+		
+
+	}
+	provinces={
+		13218
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=794
+	name="STATE_794"
+	manpower = 182741
+	
+	state_category = town
+	
+	resources={
+		oil=2 # was: 10
+	}
+
+
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRQ
+		add_core_of = JOR
+	}
+	
+	provinces={
+		1600 6826 8123 10793 12372 
+	}
+}
