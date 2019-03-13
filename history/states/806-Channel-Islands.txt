@@ -1,0 +1,33 @@
+
+state={
+	id=806
+	name="STATE_806" # Channel Islands
+	manpower = 120400
+	resources={
+		oil=1 
+	}
+
+	state_category = city
+
+	history={
+		owner = ENG
+		
+		victory_points = { 13219 3 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			
+			13219 = {
+				naval_base = 1
+			}
+			dockyard = 1
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		13219
+	}
+}
