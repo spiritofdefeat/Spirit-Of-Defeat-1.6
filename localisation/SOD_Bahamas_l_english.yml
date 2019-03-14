@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+BHU_national_collectivist_party:0 ""
+BHU_national_collectivist_party_long:0 ""
+BHU_vanguard_communism_party:0 ""
+BHU_vanguard_communism_party_long:0 ""
+BHU_social_conservatism_party:0 FNM""
+BHU_social_conservatism_party_long:0 "Free National Movement"
+BHU_utilitarian_despot_party:0 ""
+BHU_utilitarian_despot_party_long:0 ""
+BHU_authoritarian_democrat_party:0 ""
+BHU_authoritarian_democrat_party_long:0 ""
+BHU_social_democracy_party:0 ""
+BHU_social_democracy_party_long:0 ""
+BHU_social_liberal_party:0 "PLP"
+BHU_social_liberal_party_long:0 "Progressive Liberal Party"
+BHU_classic_liberal_party:0 "UBP"
+BHU_classic_liberal_party_long:0 "United Bahamian Party"
+BHU_totalitarian_socialism_party:0 ""
+BHU_totalitarian_socialism_party_long:0 ""
+BHU_revolutionary_socialism_party:0 ""
+BHU_revolutionary_socialism_party_long:0 ""
+BHU_democratic_socialism_party:0 ""
+BHU_democratic_socialism_party_long:0 ""
+BHU_nihilistic_extremism_party:0 ""
+BHU_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ BHU_national_collectivist:0 "Commonwealth of The Bahamas"
+ BHU_national_collectivist_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_nihilistic_extremism:0 "Commonwealth of The Bahamas"
+ BHU_nihilistic_extremism_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_totalitarian_socialism:0 "Commonwealth of The Bahamas"
+ BHU_totalitarian_socialism_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_utilitarian_despot:0 "Commonwealth of The Bahamas"
+ BHU_utilitarian_despot_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_social_conservatism:0 "Commonwealth of The Bahamas"
+ BHU_social_conservatism_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_authoritarian_democrat:1 "Commonwealth of The Bahamas"
+ BHU_authoritarian_democrat_DEF:1 "the Commonwealth of The Bahamas
+ BHU_democratic_socialism:0 "Commonwealth of The Bahamas"
+ BHU_democratic_socialism_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_revolutionary_socialism:0 "Commonwealth of The Bahamas"
+ BHU_revolutionary_socialism_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_social_democracy:0 "Commonwealth of The Bahamas"
+ BHU_social_democracy_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_social_liberal:0 "Commonwealth of The Bahamas"
+ BHU_social_liberal_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_classic_liberal:0 "Commonwealth of The Bahamas"
+ BHU_classic_liberal_DEF:0 "the Commonwealth of The Bahamas"
+ BHU_vanguard_communism:0 "Commonwealth of The Bahamas"
+ BHU_vanguard_communism_DEF:0 "the Commonwealth of The Bahamas"
+ 
+ BHU_national_collectivist_ADJ:0 "Bahamian"
+ BHU_nihilistic_extremism_ADJ:0 "Bahamian"
+ BHU_totalitarian_socialism:0 "Bahamian"
+ BHU_social_conservatism_ADJ:0 "Bahamian"
+ BHU_utilitarian_despot_ADJ:0 "Bahamian"
+ BHU_democratic_socialism_ADJ:0 "Bahamian"
+ BHU_authoritarian_democrat_ADJ:0 "Bahamian"
+ BHU_revolutionary_socialism:0 "Bahamian"
+ BHU_social_democracy_ADJ:0 "Bahamian"
+ BHU_social_liberal_ADJ:0 "Bahamian"
+ BHU_classic_liberal_ADJ:0 "Bahamian"
+ BHU_vanguard_communism_ADJ:0 "Bahamian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
