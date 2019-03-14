@@ -263,20 +263,28 @@ set_politics = {
 
 	parties = {
 		social_conservatism = { 
-			popularity = 99
+			popularity = 47
 		}
 
-		national_collectivist = {
-			popularity = 0
+		classic_liberal = {
+			popularity = 47
+		}
+
+		social_liberal = {
+			popularity = 2
 		}
 		
-		vanguard_communism = {
-			popularity = 1
+		democratic_socialism = {
+			popularity = 2
 			#banned = no #default is no
+		}
+
+		authoritarian_democrat = {
+			popularity = 2
 		}
 	}
 	
-	ruling_party = social_conservatism
+	ruling_party = classic_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -303,20 +311,28 @@ set_autonomy = {
 
 		parties = {
 			social_conservatism = { 
-				popularity = 99
+				popularity = 47
 			}
 
-			national_collectivist = {
-				popularity = 0
+			classic_liberal = {
+				popularity = 47
+			}
+
+			social_liberal = {
+				popularity = 2
 			}
 			
-			vanguard_communism = {
-				popularity = 1
+			democratic_socialism = {
+				popularity = 2
 				#banned = no #default is no
+			}
+
+			authoritarian_democrat = {
+				popularity = 2
 			}
 		}
 		
-		ruling_party = social_conservatism
+		ruling_party = classic_liberal
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
@@ -324,11 +340,22 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	name = "Andrew Mellon"
+	desc = "POLITICS_ANDREW_MELLON_DESC"
+	picture = "Portrait_Mellon.tga"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = classic_liberal_subtype
+	traits = {
+		dislikes_germany
+	}
+}
+
+create_country_leader = {
+	name = "Hugo Black"
+	desc = "POLITICS_HUGO_BLACK_DESC"
+	picture = "Portrait_Black.tga"
+	expire = "1947.1.1"
+	ideology = social_conservatism_subtype
 	traits = {
 		dislikes_germany
 	}

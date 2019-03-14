@@ -299,7 +299,7 @@ OMA = {
 	color_ui = rgb { 202 131 139 }
 }
 SLO = {
-	color = rgb { 158  161  188 }
+	color = rgb { 195 204 142 }
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
@@ -363,8 +363,8 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	color = rgb { 99 99 144 }
+	color_ui = rgb { 99 99 144 }
 }
 
 ICE = {

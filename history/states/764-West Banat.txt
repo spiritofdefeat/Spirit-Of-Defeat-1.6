@@ -6,8 +6,8 @@ state={
 	state_category = town
 
 	history={
-		owner = YUG
-		controller = YUG
+		owner = SER
+		controller = SER
 
 		buildings = {
 			infrastructure = 6
