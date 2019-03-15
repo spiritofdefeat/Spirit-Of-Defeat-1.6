@@ -545,3 +545,8 @@ SRO = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
 }
+
+LIV = {
+	color = rgb { 0 102 102 }
+	color_ui = rgb { 0 102 102 }
+}

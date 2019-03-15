@@ -1,0 +1,23 @@
+
+state={
+	id=813
+	name="STATE_813"
+	manpower = 9500
+	
+	state_category = rural
+	
+	history={
+		
+		owner = LIV
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+		}
+        add_core_of = LAT
+        add_core_of = LIV
+	}
+
+	provinces={
+		3296 6322 
+	}
+}
