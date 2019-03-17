@@ -1,0 +1,35 @@
+﻿l_english:
+
+#Parties#######done by Unkn0wn3ntity
+ DEN_social_democracy_party:0 "Socialdemokratiet"
+ DEN_social_conservatism_party:0 "DKF"
+ DEN_social_conservatism_party_long:0 "Det Konservative Folkeparti"
+ DEN_social_liberal_party:0 "RV-RLP"
+ DEN_social_liberal_party_long:0 "Radikale Venstre-Radikal Liberale Parti"
+
+#Country Names
+ DEN_social_democracy:0 "Denmark"
+ DEN_social_democracy_DEF:0 "the Kingdom of Denmark"
+ DEN_social_liberal:0 "Denmark"
+ DEN_social_liberal_DEF:0 "the Kingdom of Denmark"
+ DEN_social_conservatism:0 "Denmark"
+ DEN_social_conservatism_DEF:0 "the Kingdom of Denmark"
+ DEN_social_conservatism_ADJ:0 "Danish"
+ DEN_social_democracy_ADJ:0 "Danish"
+ DEN_social_liberal_ADJ:0 "Danish"
+  
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should NOT be reintegrated
+
+#Events######we should have a separate file for the events
+#should NOT be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
