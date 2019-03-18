@@ -101,7 +101,7 @@
  STATE_100:0 "Iceland"
  STATE_101:0 "Greenland"
  STATE_102:0 "Slovenia"
- STATE_103:0 "Dalmatia"
+ STATE_103:0 "Dalmazia"
  STATE_104:0 "Bosnia"
  STATE_105:0 "Montenegro"
  STATE_106:0 "Macedonia"
@@ -812,3 +812,4 @@
  STATE_811:0 "Sarajevo"
  STATE_812:0 "Herzegovina"
  STATE_813:0 "Livonia"
+ STATE_814:0 "Ribenizza"
