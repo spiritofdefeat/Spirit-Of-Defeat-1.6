@@ -1,1 +1,184 @@
-﻿
+﻿###########################
+# German Events
+###########################
+
+add_namespace = germany
+
+country_event = {
+	id = germany.129
+	title = germany.129.t
+	desc = germany.129.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.129.a		#far-left	
+		complete_national_focus = GER_legacyofthespartacusleague
+	}
+	
+	option = {
+		name = germany.129.b		#democratic
+		complete_national_focus = GER_thedemocraticcompromise
+	}
+
+	option = {
+		name = germany.129.c		#far-right
+		complete_national_focus = GER_restoringorderfromchaos
+	}
+
+}
+
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.1.a		#feder	
+		complete_national_focus = GER_federsschtzeputsch
+	}
+	
+	option = {
+		name = germany.1.b		#himmler
+		complete_national_focus = GER_himmlersnihilistischeregierung
+	}
+
+}
+
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.2.a		#junta	
+		complete_national_focus = GER_consolidatemilitaryauthority
+	}
+	
+	option = {
+		name = germany.2.b		#wilhelm
+		complete_national_focus = GER_demandwilhelmsrepatriation
+	}
+
+}
+
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.3.a		#Wilhelm returns	
+		complete_national_focus = GER_reinstatethekaiser
+	}
+	
+
+}
+
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = germany.4.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.4.a		#No Kaiser Willy :(	
+		complete_national_focus = GER_wilhelmsreturndenied
+	}
+	
+
+}
+
+country_event = {
+	id = germany.5
+	title = germany.5.t
+	desc = germany.5.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.5.a		#Civil War time - good luck
+		WGR = { 
+			transfer_state = 5
+			transfer_state = 58
+			transfer_state = 59
+			transfer_state = 60
+			transfer_state = 61
+			transfer_state = 62
+			transfer_state = 63
+			transfer_state = 64
+			transfer_state = 65
+			transfer_state = 66
+			transfer_state = 67
+			transfer_state = 68
+			transfer_state = 823
+			transfer_state = 825
+						load_oob = WGR_1936
+						add_state_core = 5
+						add_state_core = 58
+						add_state_core = 59
+						add_state_core = 60
+						add_state_core = 61
+						add_state_core = 62
+						add_state_core = 63
+						add_state_core = 64
+						add_state_core = 65
+						add_state_core = 66
+						add_state_core = 67
+						add_state_core = 68
+						add_state_core = 823
+						add_state_core = 825
+                }
+		add_popularity = { ideology = national_collectivist popularity = -0.3 }
+		add_popularity = { ideology = vanguard_communism popularity = 0.3 }
+		add_popularity = { ideology = utilitarian_despot popularity = -0.3 }
+		set_politics = {
+			ruling_party = vanguard_communism
+		}
+		add_stability = -0.15
+		add_war_support = 0.2
+		declare_war_on = {
+			target = WGR
+			type = annex_everything
+		}
+	}
+	
+
+}
+
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	desc = germany.6.d
+	picture = GFX_report_event_hitler_croatia_handshake
+	
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.6.a		#Himmler's Secret Police
+		enemy_partisan_effect = -0.1
+		non_core_manpower = 0.02
+	}
+	
+
+}
