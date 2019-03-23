@@ -130,19 +130,27 @@ set_politics = {
 
 	parties = {
 		social_conservatism = { 
-			popularity = 97
+			popularity = 27
+		}
+
+                social_democracy = { 
+			popularity = 62
 		}
 
 		national_collectivist = {
 			popularity = 1
 		}
-		
+
+                social_liberal = {
+			popularity = 5
+		}
+
 		vanguard_communism = {
-			popularity = 2
+			popularity = 5
 		}
 	}
 	
-	ruling_party = social_conservatism
+	ruling_party = social_democracy
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
@@ -179,7 +187,7 @@ create_country_leader = {
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democracy_subtype
 	traits = {
 		#
 	}
