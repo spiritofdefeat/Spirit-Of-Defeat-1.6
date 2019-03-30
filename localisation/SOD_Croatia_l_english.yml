@@ -1,0 +1,45 @@
+﻿l_english: 
+
+#Parties
+CRO_national_collectivist_party:0 "Ustaša"
+CRO_national_collectivist_party_long:0 "Ustaša - Hrvatski revolucionarni pokret"
+CRO_vanguard_communism_party:0 "SKP"
+CRO_vanguard_communism_party_long:0 "Savez komunista Hrvatska"
+CRO_social_conservatism_party:1 ""
+CRO_social_conservatism_party_long:0 ""
+CRO_utilitarian_despot_party:0 ""
+CRO_utilitarian_despot_party_long:0 ""
+CRO_authoritarian_democrat_party:0 ""
+CRO_authoritarian_democrat_party_long:0 "" 
+#all other parties are banned, hence the lack of names
+
+#Country Names
+ CRO_national_collectivist:0 "Independent State of Croatia"
+ CRO_national_collectivist_DEF:0 "the Independent State of Croatia"
+ CRO_totalitarian_socialism:0 "Croatian People's Republic"
+ CRO_totalitarian_socialism_DEF:0 "the Croatian People's Republic"
+ CRO_utilitarian_despot:0 "Independent State of Croatia"
+ CRO_utilitarian_despot_DEF:0 "the Independent State of Croatia"
+ CRO_social_conservatism:0 "Independent State of Croatia"
+ CRO_social_conservatism_DEF:0 "the Independent State of Croatia"
+ CRO_authoritarian_democrat:1 "Independent State of Croatia"
+ CRO_authoritarian_democrat_DEF:1 "the Independent State of Croatia"
+  
+ CRO_national_collectivist_ADJ:0 "Croatian"
+ CRO_totalitarian_socialism:0 "Croatian"
+ CRO_social_conservatism_ADJ:0 "Croatian"
+ CRO_utilitarian_despot_ADJ:0 "Croatian"
+ CRO_authoritarian_democrat_ADJ:0 "Croatian"
+ 
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
