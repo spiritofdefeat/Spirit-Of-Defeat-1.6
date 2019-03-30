@@ -550,3 +550,7 @@ LIV = {
 	color = rgb { 0 102 102 }
 	color_ui = rgb { 0 102 102 }
 }
+KUR = {
+	color = rgb { 75  20  70 }
+	color_ui = rgb { 85 30 80 }
+}
