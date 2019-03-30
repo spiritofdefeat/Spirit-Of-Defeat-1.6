@@ -1,4 +1,4 @@
-﻿capital = 107
+capital = 107
 
 oob = "YUG_1936"
 
@@ -80,71 +80,41 @@ set_technology = {
 	}
 }
 
-set_convoys = 0
+set_convoys = 50
 
 set_politics = {
 
 	parties = {
 		social_conservatism = { 
-			popularity = 20
+			popularity = 3
 		}
 
 		national_collectivist = {
-			popularity = 30
+			popularity = 15
 		}
 		
 		vanguard_communism = {
-			popularity = 20
+			popularity = 6
 			#banned = no #default is no
 		}
 		
 		authoritarian_democrat = { 
-			popularity = 30
+			popularity = 76
 		}
 	}
 	
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 20
-			}
-
-			national_collectivist = {
-				popularity = 30
-			}
-			
-			vanguard_communism = {
-				popularity = 20
-				#banned = no #default is no
-			}
-			
-			authoritarian_democrat = { 
-				popularity = 30
-			}
-		}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1938.1.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
-set_stability = 0.6
 
 create_country_leader = {
 	name = "Draza Mihailovic"
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_land_19.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservatism_subtype
 	traits = {
 		#
 	}
@@ -155,18 +125,18 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = national_collectivist_ideology
+	ideology = national_collectivist_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Peter Karadordevic"
-	desc = ""
+	name = "HM King Alexander Karedordevic I of Serbia"
+	desc = "POLITICS_ALEXANDER_I_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = Despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -177,8 +147,39 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = vanguard_communism_subtype
 	traits = {
 		#
 	}
 }
+
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			social_conservatism = { 
+				popularity = 3
+			}
+
+			national_collectivist = {
+				popularity = 15
+			}
+			
+			vanguard_communism = {
+				popularity = 6
+				#banned = no #default is no
+			}
+			
+			authoritarian_democrat = { 
+				popularity = 76
+			}
+		}
+		
+		ruling_party = authoritarian_democrat
+		last_election = "1938.1.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+}
+set_stability = 0.6
