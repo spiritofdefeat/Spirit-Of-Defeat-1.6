@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+BOS_national_collectivist_party:0 ""
+BOS_national_collectivist_party_long:0 ""
+BOS_vanguard_communism_party:0 ""
+BOS_vanguard_communism_party_long:0 ""
+BOS_social_conservatism_party:0 ""
+BOS_social_conservatism_party_long:0 ""
+BOS_utilitarian_despot_party:0 ""
+BOS_utilitarian_despot_party_long:0 ""
+BOS_authoritarian_democrat_party:0 ""
+BOS_authoritarian_democrat_party_long:0 ""
+BOS_social_democracy_party:0 ""
+BOS_social_democracy_party_long:0 ""
+BOS_social_liberal_party:0 ""
+BOS_social_liberal_party_long:0 ""
+BOS_classic_liberal_party:0 ""
+BOS_classic_liberal_party_long:0 ""
+BOS_totalitarian_socialism_party:0 ""
+BOS_totalitarian_socialism_party_long:0 ""
+BOS_revolutionary_socialism_party:0 ""
+BOS_revolutionary_socialism_party_long:0 ""
+BOS_democratic_socialism_party:0 ""
+BOS_democratic_socialism_party_long:0 ""
+BOS_nihilistic_extremism_party:0 ""
+BOS_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ BOS_national_collectivist:0 "Bosnia and Herzegovina"
+ BOS_national_collectivist_DEF:0 "Bosnia and Herzegovina"
+ BOS_nihilistic_extremism:0 "Bosnia and Herzegovina"
+ BOS_nihilistic_extremism_DEF:0 "Bosnia and Herzegovina"
+ BOS_totalitarian_socialism:0 "Bosnia and Herzegovina"
+ BOS_totalitarian_socialism_DEF:0 "Bosnia and Herzegovina"
+ BOS_utilitarian_despot:0 "Bosnia and Herzegovina"
+ BOS_utilitarian_despot_DEF:0 "Bosnia and Herzegovina"
+ BOS_social_conservatism:0 "Bosnia and Herzegovina"
+ BOS_social_conservatism_DEF:0 "Bosnia and Herzegovina"
+ BOS_authoritarian_democrat:1 "Bosnia and Herzegovina"
+ BOS_authoritarian_democrat_DEF:1 "Bosnia and Herzegovina
+ BOS_democratic_socialism:0 "Bosnia and Herzegovina"
+ BOS_democratic_socialism_DEF:0 "Bosnia and Herzegovina"
+ BOS_revolutionary_socialism:0 "Bosnia and Herzegovina"
+ BOS_revolutionary_socialism_DEF:0 "Bosnia and Herzegovina"
+ BOS_social_democracy:0 "Bosnia and Herzegovina"
+ BOS_social_democracy_DEF:0 "Bosnia and Herzegovina"
+ BOS_social_liberal:0 "Bosnia and Herzegovina"
+ BOS_social_liberal_DEF:0 "Bosnia and Herzegovina"
+ BOS_classic_liberal:0 "Bosnia and Herzegovina"
+ BOS_classic_liberal_DEF:0 "Bosnia and Herzegovina"
+ BOS_vanguard_communism:0 "Bosnia and Herzegovina"
+ BOS_vanguard_communism_DEF:0 "Bosnia and Herzegovina"
+ 
+ BOS_national_collectivist_ADJ:0 "Bosnian"
+ BOS_nihilistic_extremism_ADJ:0 "Bosnian"
+ BOS_totalitarian_socialism:0 "Bosnian"
+ BOS_social_conservatism_ADJ:0 "Bosnian"
+ BOS_utilitarian_despot_ADJ:0 "Bosnian"
+ BOS_democratic_socialism_ADJ:0 "Bosnian"
+ BOS_authoritarian_democrat_ADJ:0 "Bosnian"
+ BOS_revolutionary_socialism:0 "Bosnian"
+ BOS_social_democracy_ADJ:0 "Bosnian"
+ BOS_social_liberal_ADJ:0 "Bosnian"
+ BOS_classic_liberal_ADJ:0 "Bosnian"
+ BOS_vanguard_communism_ADJ:0 "Bosnian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
