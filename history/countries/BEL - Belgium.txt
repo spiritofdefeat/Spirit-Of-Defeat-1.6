@@ -83,3 +83,36 @@ set_politics = {
 set_convoys = 80
 set_stability = 0.75
 
+create_country_leader = {
+	name = "Paul van Zeeland"
+	desc = "POLITICS_PAUL_ZEELAND_DESC"
+	picture = "Portrait_BEL_Paul_van_Zeeland.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism_subtype
+	traits = {
+		#
+	}
+}
+
+
+#create_country_leader = {
+#	name = "Hubert Pierlot"
+#	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+#	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
+#	expire = "1965.1.1"
+#	ideology = conservatism
+#	traits = {
+#		#
+#	}
+#}
+
+create_corps_commander = {
+	name = "M.C.L. Keyaerts"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
