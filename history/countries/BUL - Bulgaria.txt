@@ -1,4 +1,4 @@
-﻿capital = 48
+capital = 48
 
 oob = "BUL_1936"
 
@@ -79,11 +79,11 @@ set_politics = {
 
 	parties = {
 		social_conservatism = { 
-			popularity = 5
+			popularity = 3
 		}
 
 		national_collectivist = {
-			popularity = 35
+			popularity = 13
 		}
 		
 		vanguard_communism = {
@@ -91,7 +91,7 @@ set_politics = {
 			banned = yes
 		}
 		authoritarian_democrat = { 
-			popularity = 60
+			popularity = 84
 		}
 	}
 	
@@ -130,11 +130,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Boris III"
+	name = "Tsar Boris III"
 	desc = "POLITICS_BORIS_III_DESC"
 	picture = "Portrait_Bulgaria_Boris_III.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
