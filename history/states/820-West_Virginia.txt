@@ -1,0 +1,24 @@
+
+state={
+	id=820
+	name="STATE_820"
+	manpower = 1808000
+	
+	state_category = large_city
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+victory_points = { 7588 2 }
+
+	}
+
+	provinces={
+		11888 6958 3941 7646 7466 4627 9923 801 6850 3975 7588 10441 6971 
+	}
+}

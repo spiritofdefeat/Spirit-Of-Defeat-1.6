@@ -1,0 +1,29 @@
+state={
+	id=819
+	name="STATE_819"
+	#resources={
+	#	steel=12 # was: 20.000
+	#}
+
+	state_category = metropolis
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+
+
+
+		}
+		add_core_of = USA
+		victory_points = { 4445 1 }
+
+	}
+
+	provinces={
+		13158 7629 4445 9675
+	}
+	manpower=357000
+	buildings_max_level_factor=1.000
+}
