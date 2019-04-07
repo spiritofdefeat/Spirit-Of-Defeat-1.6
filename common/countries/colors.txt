@@ -554,3 +554,8 @@ KUR = {
 	color = rgb { 75  20  70 }
 	color_ui = rgb { 85 30 80 }
 }
+
+JOH = {
+	color = rgb { 110 140 129 }
+	color_ui = rgb { 110 140 129 }
+}

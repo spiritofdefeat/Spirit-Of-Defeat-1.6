@@ -191,3 +191,6 @@ SRO	= "countries/SR Austria.txt"
 
 #Countries for civil wars
 NIR = "countries/Northern Ireland.txt"
+
+#Malay States
+JOH = "countries/Johor.txt"
