@@ -19,7 +19,7 @@ state={
 			industrial_complex = 1
 			air_base = 1
 			
-			13219 = {
+			13225 = {
 				naval_base = 1
 			}
 			dockyard = 1
@@ -28,6 +28,6 @@ state={
 	}
 
 	provinces={
-		13219
+		13225
 	}
 }

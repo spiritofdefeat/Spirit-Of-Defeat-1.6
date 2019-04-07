@@ -17,5 +17,5 @@ state=
         add_core_of = ITA
 		add_core_of = SLV
 	}
-	provinces={ 13221 13222 13223 }
+	provinces={ 13219 13220 13221 }
 	}
