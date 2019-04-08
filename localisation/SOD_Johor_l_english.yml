@@ -80,11 +80,11 @@ JOH_nihilistic_extremism_party_long:0 ""
 
 #cosmetic tags
  JOH_UK_autonomy_protectorate:0 "State of Johor Darul Ta'zim"
- JOH_UK_autonomy_colony:0 "Canadian Confederation"
- JOH_UK_autonomy_puppet:0 "Province of Canada"
- JOH_UK_autonomy_integrated_puppet:0 "British North America"
+ JOH_UK_autonomy_colony:0 "Johor Colony"
+ JOH_UK_autonomy_puppet:0 "British Johor"
+ JOH_UK_autonomy_integrated_puppet:0 "British South Malaya"
  JOH_UK_autonomy_protectorate_DEF:0 "the State of Johor Darul Ta'zim"
- JOH_UK_autonomy_colony_DEF:0 "the Canadian Confederation"
- JOH_UK_autonomy_puppet_DEF:0 "the Province of Canada"
- JOH_UK_autonomy_integrated_puppet_DEF:0 "British North America"America"
+ JOH_UK_autonomy_colony_DEF:0 "the Johor Colony"
+ JOH_UK_autonomy_puppet_DEF:0 "British Johor"
+ JOH_UK_autonomy_integrated_puppet_DEF:0 "British South Malaya"
  
