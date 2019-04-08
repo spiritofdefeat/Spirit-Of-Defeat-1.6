@@ -116,13 +116,6 @@ add_ideas = {
 set_convoys = 800
 
 # DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
 	set_autonomy = {
 		target = MAL
 		autonomous_state = autonomy_integrated_puppet
@@ -152,11 +145,12 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
+	
+	set_autonomy = {
+		target = JOH
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.2
 	}
-}
 
 
 if = {
