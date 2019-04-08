@@ -1,0 +1,24 @@
+state={
+	id=827
+	name="STATE_827"
+
+	state_category = town
+	history={
+		owner = GER
+		victory_points = {
+			6934 20
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		6934 
+	}
+	manpower=73000
+	buildings_max_level_factor=1.000
+}
