@@ -44,11 +44,6 @@ set_technology = {
 }
 set_convoys = 25
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
-}
 
 set_politics = {
 
@@ -120,5 +115,6 @@ create_country_leader = {
 	}
 }
 
+set_cosmetic_tag = JOH_UK
 
 

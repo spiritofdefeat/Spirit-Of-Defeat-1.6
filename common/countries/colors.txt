@@ -556,6 +556,16 @@ KUR = {
 }
 
 JOH = {
-	color = rgb { 110 140 129 }
-	color_ui = rgb { 110 140 129 }
+	color = rgb { 0 43 127 }
+	color_ui = rgb { 0 43 127 }
+}
+
+KED = {
+	color = rgb { 215 17 27 }
+	color_ui = rgb { 215 17 27 }
+}
+
+PRL = {
+	color = rgb { 251 208 21 }
+	color_ui = rgb { 251 208 21 }
 }

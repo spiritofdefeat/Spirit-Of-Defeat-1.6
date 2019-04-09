@@ -194,3 +194,6 @@ NIR = "countries/Northern Ireland.txt"
 
 #Malay States
 JOH = "countries/Johor.txt"
+KED = "countries/Kedah.txt"
+PRL = "countries/Perlis.txt"
+

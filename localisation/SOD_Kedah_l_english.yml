@@ -1,0 +1,85 @@
+﻿l_english: 
+
+#Parties
+KED_national_collectivist_party:0 ""
+KED_national_collectivist_party_long:0 ""
+KED_vanguard_communism_party:0 ""
+KED_vanguard_communism_party_long:0 ""
+KED_social_conservatism_party:0 ""
+KED_social_conservatism_party_long:0 ""
+KED_utilitarian_despot_party:0 "Mahawangsa"
+KED_utilitarian_despot_party_long:0 "Mahawangsa Dynasty"
+KED_authoritarian_democrat_party:0 ""
+KED_authoritarian_democrat_party_long:0 ""
+KED_social_democracy_party:0 ""
+KED_social_democracy_party_long:0 ""
+KED_social_liberal_party:0 ""
+KED_social_liberal_party_long:0 ""
+KED_classic_liberal_party:0 ""
+KED_classic_liberal_party_long:0 ""
+KED_totalitarian_socialism_party:0 ""
+KED_totalitarian_socialism_party_long:0 ""
+KED_revolutionary_socialism_party:0 ""
+KED_revolutionary_socialism_party_long:0 ""
+KED_democratic_socialism_party:0 ""
+KED_democratic_socialism_party_long:0 ""
+KED_nihilistic_extremism_party:0 ""
+KED_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ KED_national_collectivist:0 "Sultanate of Kedah"
+ KED_national_collectivist_DEF:0 "Sultanate of Kedah"
+ KED_nihilistic_extremism:0 "Sultanate of Kedah"
+ KED_nihilistic_extremism_DEF:0 "Sultanate of Kedah"
+ KED_totalitarian_socialism:0 "Sultanate of Kedah"
+ KED_totalitarian_socialism_DEF:0 "Sultanate of Kedah"
+ KED_utilitarian_despot:0 "Sultanate of Kedah"
+ KED_utilitarian_despot_DEF:0 "Sultanate of Kedah"
+ KED_social_conservatism:0 "Sultanate of Kedah"
+ KED_social_conservatism_DEF:0 "Sultanate of Kedah"
+ KED_authoritarian_democrat:1 "Sultanate of Kedah"
+ KED_authoritarian_democrat_DEF:1 "Sultanate of Kedah
+ KED_democratic_socialism:0 "Sultanate of Kedah"
+ KED_democratic_socialism_DEF:0 "Sultanate of Kedah"
+ KED_revolutionary_socialism:0 "Sultanate of Kedah"
+ KED_revolutionary_socialism_DEF:0 "Sultanate of Kedah"
+ KED_social_democracy:0 "Sultanate of Kedah"
+ KED_social_democracy_DEF:0 "Sultanate of Kedah"
+ KED_social_liberal:0 "Sultanate of Kedah"
+ KED_social_liberal_DEF:0 "Sultanate of Kedah"
+ KED_classic_liberal:0 "Sultanate of Kedah"
+ KED_classic_liberal_DEF:0 "Sultanate of Kedah"
+ KED_vanguard_communism:0 "Sultanate of Kedah"
+ KED_vanguard_communism_DEF:0 "Sultanate of Kedah"
+ 
+ KED_national_collectivist_ADJ:0 "Kedahan"
+ KED_nihilistic_extremism_ADJ:0 "Kedahan"
+ KED_totalitarian_socialism:0 "Kedahan"
+ KED_social_conservatism_ADJ:0 "Kedahan"
+ KED_utilitarian_despot_ADJ:0 "Kedahan"
+ KED_democratic_socialism_ADJ:0 "Kedahan"
+ KED_authoritarian_democrat_ADJ:0 "Kedahan"
+ KED_revolutionary_socialism:0 "Kedahan"
+ KED_social_democracy_ADJ:0 "Kedahan"
+ KED_social_liberal_ADJ:0 "Kedahan"
+ KED_classic_liberal_ADJ:0 "Kedahan"
+ KED_vanguard_communism_ADJ:0 "Kedahan"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ KED_UK_autonomy_protectorate:0 "State of Kedah Darul Aman"
+ KED_UK_autonomy_protectorate_DEF:0 "the State of Kedah Darul Aman"
+
+ 

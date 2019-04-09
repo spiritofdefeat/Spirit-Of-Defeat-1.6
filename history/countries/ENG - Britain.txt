@@ -116,10 +116,7 @@ add_ideas = {
 set_convoys = 800
 
 # DIPLOMACY
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
+	
 	set_autonomy = {
 		target = RAJ
 		autonomous_state = autonomy_colony
@@ -149,9 +146,212 @@ set_convoys = 800
 	set_autonomy = {
 		target = JOH
 		autonomous_state = autonomy_protectorate
-		freedom_level = 0.2
+		freedom_level = 0.85
+	}
+	
+	set_autonomy = {
+		target = KED
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.85
+	}
+	
+	set_autonomy = {
+		target = MAL
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.85
+	}
+	
+	set_autonomy = {
+		target = PRL
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.85
 	}
 
+#Define puppet popularites here so pie chart isnt a mess
+JOH = {
+	set_politics = {
+
+	parties = {
+		totalitarian_socialism = { 
+			popularity = 0
+		}
+
+		vanguard_communism = {
+			popularity = 0
+		}
+		
+		revolutionary_socialism = {
+			popularity = 0
+		}
+		
+		democratic_socialism = { 
+			popularity = 0
+		}
+
+		social_democracy = {
+			popularity = 0
+		}
+		
+		social_liberal = {
+			popularity = 0
+		}
+		
+		classic_liberal = { 
+			popularity = 0
+		}
+
+		social_conservatism = {
+			popularity = 0
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		
+		utilitarian_despot = { 
+			popularity = 100
+		}
+
+		national_collectivist = {
+			popularity = 0
+		}
+		
+		nihilistic_extremism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = utilitarian_despot
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+}
+
+KED = {
+	set_politics = {
+
+	parties = {
+		totalitarian_socialism = { 
+			popularity = 0
+		}
+
+		vanguard_communism = {
+			popularity = 0
+		}
+		
+		revolutionary_socialism = {
+			popularity = 0
+		}
+		
+		democratic_socialism = { 
+			popularity = 0
+		}
+
+		social_democracy = {
+			popularity = 0
+		}
+		
+		social_liberal = {
+			popularity = 0
+		}
+		
+		classic_liberal = { 
+			popularity = 0
+		}
+
+		social_conservatism = {
+			popularity = 0
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		
+		utilitarian_despot = { 
+			popularity = 100
+		}
+
+		national_collectivist = {
+			popularity = 0
+		}
+		
+		nihilistic_extremism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = utilitarian_despot
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+}
+
+PRL = {
+	set_politics = {
+
+	parties = {
+		totalitarian_socialism = { 
+			popularity = 0
+		}
+
+		vanguard_communism = {
+			popularity = 0
+		}
+		
+		revolutionary_socialism = {
+			popularity = 0
+		}
+		
+		democratic_socialism = { 
+			popularity = 0
+		}
+
+		social_democracy = {
+			popularity = 0
+		}
+		
+		social_liberal = {
+			popularity = 0
+		}
+		
+		classic_liberal = { 
+			popularity = 0
+		}
+
+		social_conservatism = {
+			popularity = 0
+		}
+		
+		authoritarian_democrat = {
+			popularity = 0
+		}
+		
+		utilitarian_despot = { 
+			popularity = 100
+		}
+
+		national_collectivist = {
+			popularity = 0
+		}
+		
+		nihilistic_extremism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = utilitarian_despot
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+}
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

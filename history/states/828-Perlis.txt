@@ -1,0 +1,29 @@
+
+state={
+	id=828
+	name="STATE_828"
+	manpower = 51100
+	
+	state_category = large_town
+	
+
+	history={
+		owner = PRL
+		victory_points = {
+			13234 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13234 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = MAL
+		add_core_of = PRL
+	}
+
+	provinces={
+		13234  
+	}
+}
