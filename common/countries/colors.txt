@@ -569,3 +569,8 @@ PRL = {
 	color = rgb { 251 208 21 }
 	color_ui = rgb { 251 208 21 }
 }
+
+KON = {
+	color = rgb { 112 41 99 }
+	color_ui = rgb { 112 41 99 }
+}
