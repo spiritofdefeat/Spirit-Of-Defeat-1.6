@@ -1,1 +1,47 @@
+﻿add_namespace = usa
+ 
+ country_event = {
+	id = usa.25
+	title = usa.25.t
+	desc = usa.25.d
+	picture = GFX_report_event_pershing
 
+	is_triggered_only = no
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		has_war = yes
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	# Yes
+	option = { 	
+		name = usa.25.a
+		ai_chance = {
+			factor = 25
+			}		
+		}
+		add_political_power = -10
+		create_field_marshal = {
+			name = "John J. Pershing"
+			picture = "#Portrait_USA_John_J_Pershing.dds"
+			traits = { 
+				old_guard harsh_leader infantry_officer inflexible_strategist infantry_expert infantry_leader skilled_staffer ranger
+			}
+		}
+	}
+
+	# No
+	option = { 
+		name = usa.25.b
+		add_political_power = 10
+		ai_chance = {
+			factor = 75
+		}
+	}		
+}
