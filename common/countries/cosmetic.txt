@@ -217,6 +217,11 @@ JOH_UK = {
     color_ui = rgb { 255 73 121 }
 }
 
+KED_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
 PRL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
