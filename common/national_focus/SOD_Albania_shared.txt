@@ -1,0 +1,206 @@
+###########################
+# Albania Focus Tree - shared stuff
+# By KSTAR
+###########################
+
+### Modernization Foci ###
+
+shared_focus = {
+	id = ALB_modernize_albania
+	icon = GFX_goal_ALB_modernize_albania
+	cost = 20.00
+	ai_will_do = {
+		factor = 100
+	}
+	x = 9
+	y = 0
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_modernize_albania"
+	}
+}
+
+shared_focus = {
+	id = ALB_economic_modernization
+	icon = GFX_goal_ALB_economic_modernization
+	cost = 2.85
+	prerequisite = {
+		focus = ALB_modernize_albania
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 3
+	y = 1
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_economic_modernization"
+
+	}
+}
+
+shared_focus = {
+	id = ALB_italian_loans
+	icon = GFX_goal_ALB_italian_loans
+	cost = 5.71
+	prerequisite = {
+		focus = ALB_economic_modernization
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 3
+	y = 2
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_italian_loans"
+
+	}
+}
+
+
+shared_focus = {
+	id = ALB_agrarian_reform
+	icon = GFX_goal_ALB_agrarian_reform
+	cost = 8.57
+	prerequisite = {
+		focus = ALB_italian_loans
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 1
+	y = 3
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_agrarian_reform"
+
+	}
+}
+
+shared_focus = {
+	id = ALB_new_industries
+	icon = GFX_goal_ALB_new_industries
+	cost = 8.57
+	prerequisite = {
+		focus = ALB_italian_loans
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 5
+	y = 3
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_new_industries"
+
+	}
+}
+
+shared_focus = {
+	id = ALB_clear_useless_farmland
+	icon = GFX_goal_ALB_clear_useless_farmland
+	cost = 11.42
+	prerequisite = {
+		focus = ALB_agrarian_reform
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 1
+	y = 4
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_clear_useless_farmland"
+
+	}
+}
+
+shared_focus = {
+	id = ALB_hydroelectricity
+	icon = GFX_goal_ALB_hydroelectricity
+	cost = 11.42
+	prerequisite = {
+		focus = ALB_new_industries
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 5
+	y = 4
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_hydroelectricity"
+
+	}
+}
+
+shared_focus = {
+	id = ALB_military_industrial_complex
+	icon = GFX_goal_ALB_military_industrial_complex
+	cost = 14.28
+	prerequisite = {
+		focus = ALB_clear_useless_farmland
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 1
+	y = 5
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_military_industrial_complex"
+
+	}
+}
+
+shared_focus = {
+	id = ALB_civilian_industry
+	icon = GFX_goal_ALB_civilian_industry
+	cost = 14.28
+	prerequisite = {
+		focus = ALB_hydroelectricity
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 5
+	y = 5
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_civilian_industry"
+
+	}
+}
+
+shared_focus = {
+	id = ALB_steel_mining
+	icon = GFX_goal_steel_mining
+	cost = 17.14
+	prerequisite = {
+		focus = ALB_military_industrial_complex
+	}
+	
+	prerequisite = {
+		focus = ALB_civilian_industry
+	}
+	ai_will_do = {
+		factor = 100
+	}
+	x = 3
+	y = 6
+
+
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_steel_mining"
+
+	}
+}
