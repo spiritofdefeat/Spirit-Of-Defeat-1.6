@@ -5,6 +5,8 @@ ideologies = {
         types = {
 
             totalitarian_socialism_subtype = {}
+			anti-revisionist = {}
+			national_bolshevik = {}
 
         }
 
@@ -42,6 +44,8 @@ ideologies = {
         types = {
 
             vanguard_communism_subtype = {}
+			leninist = {}
+			trotskyist = {}
 
         }
 
@@ -190,6 +194,11 @@ ideologies = {
         types = {
 
             social_liberal_subtype = {}
+			progressivism = {}
+			centrism = {}
+			radical_liberalism = {}
+			keynesian_liberalism = {}
+			liberal_conservatism = {}
 
         }
 
@@ -227,6 +236,10 @@ ideologies = {
         types = {
 
             classic_liberal_subtype = {}
+			market_liberalism = {}
+			constitutionalism = {}
+			conservative_liberalism = {}
+			right_libertarianism = {}
 
         }
 
@@ -264,6 +277,12 @@ ideologies = {
         types = {
 
             social_conservatism_subtype = {}
+			fiscal_conservatism = {}
+			traditionalism = {}
+			christian_democracy = {}
+			reactionary_conservatism = {}
+			clerical_conservatism = {}
+
 
         }
 
@@ -301,6 +320,12 @@ ideologies = {
         types = {
 
             authoritarian_democrat_subtype = {}
+			national_conservatism = {}
+			revolutionary_conservatism = {}
+			managed_democracy = {}
+			partial_democracy = {}
+			oligarchic_state = {}
+			prometheist = {}
 
         }
 
@@ -338,6 +363,11 @@ ideologies = {
         types = {
 
             utilitarian_despot_subtype = {}
+			paternal_state = {}
+			absolute_monarchy = {}
+			warlord = {}
+			military_junta = {}
+			totalitarian_state = {}
 
         }
 
@@ -375,6 +405,10 @@ ideologies = {
         types = {
 
             national_collectivist_subtype = {}
+			national_syndicalist = {}
+			national_corporatism = {}
+			falangism = {}
+			integral_nationalism = {}
 
         }
 
@@ -412,6 +446,10 @@ ideologies = {
         types = {
 
             nihilistic_extremism_subtype = {}
+			himmlerist_nihilism = {}
+			cioranist_nihilism = {}
+			pronayist_nihilism = {}
+			radical_paramilitarist = {}
 
         }
 
