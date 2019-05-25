@@ -7,6 +7,12 @@
  DEN_social_conservatism_party_long:0 "Det Konservative Folkeparti"
  DEN_social_liberal_party:0 "B"
  DEN_social_liberal_party_long:0 "Radikale Venstre-Radikal Liberale Parti"
+ DEN_classic_liberal_party:0 "V"
+ DEN_classic_liberal_party_long:0 "Venstre, Danmarks Liberale Parti"
+ DEN_vanguard_communism_party:0 "DKP"
+ DEN_vanguard_communism_party_long:0 "Danmarks Kommunistiske Parti"
+ DEN_national_collectivist_party:0 "DNSAP"
+ DEN_national_collectivist_party_long:0 "Danmarks Nationalsocialistiske Arbejderparti"
 
 #Country Names
  DEN_social_democracy:0 "Denmark"
@@ -15,9 +21,18 @@
  DEN_social_liberal_DEF:0 "the Kingdom of Denmark"
  DEN_social_conservatism:0 "Denmark"
  DEN_social_conservatism_DEF:0 "the Kingdom of Denmark"
+ DEN_classic_liberal:0 "Denmark"
+ DEN_classic_liberal_DEF:0 "the Kingdom of Denmark"
+ DEN_vanguard_communism:0 "Danish Union"
+ DEN_vanguard_communism_DEF:0 "the Danish Union"
+ DEN_national_collectivist:0 "Danske Rige"
+ DEN_national_collectivist_DEF:0 "the Danish Reich"
  DEN_social_conservatism_ADJ:0 "Danish"
  DEN_social_democracy_ADJ:0 "Danish"
  DEN_social_liberal_ADJ:0 "Danish"
+ DEN_classic_liberal_ADJ:0 "Danish"
+ DEN_vanguard_communism_ADJ:0 "Danish"
+ DEN_national_collectivist_ADJ:0 "Danish"
   
 #Ministers
 #should be reintegrated
