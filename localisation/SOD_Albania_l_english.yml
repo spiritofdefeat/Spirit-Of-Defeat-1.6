@@ -5,16 +5,18 @@ ALB_national_collectivist_party:0 ""
 ALB_national_collectivist_party_long:0 ""
 ALB_vanguard_communism_party:0 ""
 ALB_vanguard_communism_party_long:0 ""
-ALB_social_conservatism_party:1 ""
-ALB_social_conservatism_party_long:0 ""
+ALB_social_conservatism_party:0 "Progressives"
+ALB_social_conservatism_party_long:0 "Partia Progresive"
 ALB_utilitarian_despot_party:0 "Wied-Neuwied"
+ALB_utilitarian_despot_party_long:0 "House of Wied-Neuwied"
 ALB_authoritarian_democrat_party:0 "Zogists"
+ALB_authoritatian_democrat_party_long:0 "Zogist Group"
 ALB_social_democracy_party:0 ""
 ALB_social_democracy_party_long:0 ""
-ALB_social_liberal_party:0 "Popular Party"
-ALB_social_liberal_party_long:0 "Popular Party"
-ALB_classic_liberal_party:0 "Liberal Opposition"
-ALB_classic_liberal_party_long:0 "Liberal Opposition"
+ALB_social_liberal_party:0 "PP"
+ALB_social_liberal_party_long:0 "Partia Popullore"
+ALB_classic_liberal_party:0 "OL"
+ALB_classic_liberal_party_long:0 "Opozita Liberale"
 ALB_totalitarian_socialism_party:0 ""
 ALB_totalitarian_socialism_party_long:0 ""
 ALB_revolutionary_socialism_party:0 ""
@@ -70,6 +72,8 @@ POLITICS_WILLIAM_DESC:0 "After being pressured to take the Albanian throne in 19
  
 #Focuses
 #should be reintegrated
+ALB_modernize_albania:0 "Modernize Albania"
+ALB_modernize_albania_desc:0 "400 years of Ottoman rule has left the Albanian state semi-feudal and backwards. Despite our independence in 1912 we have failed to catch up with our neighbours. It is urgent that we do or Albania will become subject to another foreign ruler very soon." 
 
 #Events
 #should be reintegrated
