@@ -2,11 +2,11 @@
 
 #Parties
 BUL_national_collectivist_party:0 "SBNL"
-BUL_national_collectivist_party_long:0 "The Union of Bulgarian National Legions"
+BUL_national_collectivist_party_long:0 "Săjuz na Bălgarskite Nacionalni Legioni"
 BUL_vanguard_communism_party:0 ""
 BUL_vanguard_communism_party_long:0 ""
 BUL_social_conservatism_party:0 "NP"
-BUL_social_conservatism_party_long:0 "People's Party"
+BUL_social_conservatism_party_long:0 "Narodna partiya"
 BUL_utilitarian_despot_party:0 ""
 BUL_utilitarian_despot_party_long:0 ""
 BUL_authoritarian_democrat_party:0 "House of Saxe-Coburg and Gotha"
@@ -14,13 +14,13 @@ BUL_authoritarian_democrat_party_long:0 "House of Saxe-Coburg and Gotha-Kohary"
 BUL_social_democracy_party:0 ""
 BUL_social_democracy_party_long:0 ""
 BUL_social_liberal_party:0 "PLP"
-BUL_social_liberal_party_long:0 "Progressive Liberal Party"
+BUL_social_liberal_party_long:0 "Progresivnoliberalna partiya"
 BUL_classic_liberal_party:0 ""
 BUL_classic_liberal_party_long:0 ""
 BUL_totalitarian_socialism_party:0 ""
 BUL_totalitarian_socialism_party_long:0 ""
 BUL_revolutionary_socialism_party:0 "BKP"
-BUL_revolutionary_socialism_party_long:0 "Bulgarian Communist Party"
+BUL_revolutionary_socialism_party_long:0 "Bëlgarska Komunističeska Partija"
 BUL_democratic_socialism_party:0 ""
 BUL_democratic_socialism_party_long:0 ""
 BUL_nihilistic_extremism_party:0 ""
@@ -77,7 +77,7 @@ BUL_nihilistic_extremism_party_long:0 ""
 #should be reintegrated
 
 #Descriptions
-POLITICS_BORIS_III_DESC:0 "His Majesty the Tsar of the Bulgarians Boris Klemens Robert Maria Pius Ludwig Stanislaus Xaver III ascended to the throne at the age of 26, after his father Ferdinand I abdicated when Bulgaria surrendered to the Allied Powers in 1918. During the Third Balkan War five years later, he led his nation to victory, allying with Italy against Greece and Yugoslavia. His courage and personal example earned him respect of his soldiers and of many world leaders. Supported by the majority of the population and with a loyal army at his back, the popularity of his reign is at an all time high. Bog spasi tsarya!"
+POLITICS_BORIS_III_DESC:0 "His Majesty the Tsar of the Bulgarians Boris Klemens Robert Maria Pius Ludwig Stanislaus Xaver III ascended to the throne at the age of 26, after his father Ferdinand I abdicated when Bulgaria surrendered to the Allied Powers in 1918. During the Third Balkan War five years later, he led his nation to victory, allying with Italy against Greece and Yugoslavia. His courage and personal example earned him respect of his soldiers and of many world leaders. Supported by the majority of the population and with a loyal army at his back, the popularity of his reign is at an all time high, with communists and other anti-monarchists seemingly placated in Bulgaria under his rule."
 
 #cosmetic tags
  
