@@ -94,12 +94,12 @@ NOR = {
 	color_ui = rgb { 144 92 92 }
 }
 DEN = {
-	color = rgb { 155 117 94 }
-	color_ui = rgb { 199 151 121 }
+	color = rgb { 142 68 62 }
+	color_ui = rgb { 142 68 62 }
 }
 BUL = {
-	color = rgb { 51 155 0 }
-	color_ui = rgb { 210 147 217 }
+	color = rgb { 72 122 81 }
+	color_ui = rgb { 72 122 81 }
 }
 POR = {
 	color = rgb { 39 116 70 }
