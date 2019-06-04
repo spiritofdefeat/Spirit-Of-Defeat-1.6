@@ -14,7 +14,7 @@ ideologies = {
             "FACTION_NAME_TOTALITARIAN_SOCIALISM"
         }
 
-        color = { 255 65 65 }
+        color = { 225 0 0 }
 
         rules = {
 			can_force_government = no
@@ -53,7 +53,7 @@ ideologies = {
             "FACTION_NAME_VANGUARD_COMMUNISM"
         }
 
-        color = { 225 0 0 }
+        color = { 170 0 0 } #255 65 65 could work too
 
         rules = {
 			can_force_government = no
@@ -90,7 +90,7 @@ ideologies = {
             "FACTION_NAME_REVOLUTIONARY_SOCIALISM"
         }
 
-        color = { 166 0 0 }
+        color = { 140 0 0 }
 
         rules = {
 			can_force_government = no
