@@ -70,7 +70,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Konstantinopolis Governing Commission"
+	name = "Board of Governing Commissioners"
 	desc = "POLITICS_KONSTANTINOPOLIS_COMMISSION_DESC"
 	picture = "LN.tga"
 	expire = "1965.1.1"
