@@ -14,7 +14,7 @@ ideologies = {
             "FACTION_NAME_TOTALITARIAN_SOCIALISM"
         }
 
-        color = { 30 0 0 }
+        color = { 255 65 65 }
 
         rules = {
 			can_force_government = no
@@ -53,7 +53,7 @@ ideologies = {
             "FACTION_NAME_VANGUARD_COMMUNISM"
         }
 
-        color = { 60 0 0 }
+        color = { 225 0 0 }
 
         rules = {
 			can_force_government = no
@@ -333,7 +333,7 @@ ideologies = {
             "FACTION_NAME_AUTHORITARIAN_DEMOCRAT"
         }
 
-        color = { 160 160 160 }
+        color = { 80 80 80 }
 
         rules = {
 			can_force_government = no
@@ -375,7 +375,7 @@ ideologies = {
             "FACTION_NAME_UTILITARIAN_DESPOT"
         }
 
-        color = { 80 80 80 }
+        color = { 160 160 160 }
 
         rules = {
 			can_force_government = no
@@ -457,7 +457,7 @@ ideologies = {
             "FACTION_NAME_NIHILISTIC_EXTREMISM"
         }
 
-        color = { 3 3 3 }
+        color = { 142 57 0 }
 
         rules = {
 			can_force_government = no
