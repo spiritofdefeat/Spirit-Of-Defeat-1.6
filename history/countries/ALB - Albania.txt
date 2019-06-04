@@ -84,12 +84,36 @@ create_country_leader = {
 }
 
 create_field_marshal = {
+	name = "Ahmet Muhtar Zogolli"
+	portrait_path = "gfx/ALB/leaders/Portrait_Albania_Ahmet_Zogolli.dds"
+	traits = { politically_connected }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+
+create_corps_commander = {
+	name = "Gustav Mirdashi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = { old_guard war_hero }
+	skill = 1
+	attack_skill = 2
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+
+create_corps_commander = {
 	name = "Xhemal Aranitasi"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
-	skill = 2
+	traits = { infantry_officer }
+	skill = 1
 	attack_skill = 1
     defense_skill = 3
-    planning_skill = 2
+    planning_skill = 1
     logistics_skill = 1
 }
