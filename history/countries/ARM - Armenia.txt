@@ -1,6 +1,6 @@
-﻿capital = 230 #Yerevan, Armenia
+capital = 230 #Yerevan, Armenia#
 
-oob = "AZR_1936"
+oob = "ARM_1936"
 
 set_research_slots = 3
 
@@ -38,68 +38,23 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 25
-		}
-
-		vanguard_communism = {
-			popularity = 25
-		}
-		
-		revolutionary_socialism = {
-			popularity = 25
-			banned = no #default is no
-		}
-		
-		democratic_socialism = { 
-			popularity = 25
-		}
-
-		social_democracy = {
-			popularity = 0
-		}
-		
-		social_liberal = {
-			popularity = 0
-			banned = yes #default is no
-		}
-		
-		classic_liberal = { 
-			popularity = 0
-		}
-
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-			banned = yes #default is no
-		}
-		
-		utilitarian_despot = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
-	ruling_party = revolutionary_socialism
+	ruling_party = democratic_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
-
-
-
+set_popularities = {
+	totalitarian_socialism = 25
+	vanguard_communism = 25
+	revolutionary_socialism = 25
+	democratic_socialism = 25
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
