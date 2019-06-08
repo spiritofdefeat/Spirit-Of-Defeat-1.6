@@ -39,6 +39,3 @@ set_popularities = {
 set_stability = 0.50
 
 become_exiled_in = { target = GER legitimacy = 50 }
-
-
-

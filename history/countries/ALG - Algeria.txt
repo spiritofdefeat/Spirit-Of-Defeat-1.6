@@ -28,3 +28,18 @@ set_popularities = {
         national_collectivist = 0
         nihilistic_extremism = 0
 }
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 2
+	revolutionary_socialism = 1
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 1
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 9
+        utilitarian_despot = 87
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
