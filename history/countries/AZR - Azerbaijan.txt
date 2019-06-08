@@ -1,4 +1,4 @@
-﻿capital = 229 #Baku
+capital = 229 #Baku#
 
 oob = "AZR_1936"
 
@@ -38,67 +38,23 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 25
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-			banned = no #default is no
-		}
-		
-		democratic_socialism = { 
-			popularity = 0
-		}
-
-		social_democracy = {
-			popularity = 25
-		}
-		
-		social_liberal = {
-			popularity = 0
-			banned = yes #default is no
-		}
-		
-		classic_liberal = { 
-			popularity = 25
-		}
-
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = {
-			popularity = 25
-			banned = yes #default is no
-		}
-		
-		utilitarian_despot = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
 	ruling_party = classic_liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
-
-
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 25
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 25
+        social_liberal = 0
+        classic_liberal = 25
+        social_conservatism = 0
+        authoritarian_democrat = 25
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
