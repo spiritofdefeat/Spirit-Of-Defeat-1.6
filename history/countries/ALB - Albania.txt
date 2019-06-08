@@ -1,4 +1,4 @@
-﻿capital = 44
+capital = 44
 
 OOB = "ALB_1936"
 
@@ -9,66 +9,25 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-			banned = no #default is no
-		}
-		
-		democratic_socialism = { 
-			popularity = 0
-		}
-
-		social_democracy = {
-			popularity = 0
-		}
-		
-		social_liberal = {
-			popularity = 21
-			banned = yes #default is no
-		}
-		
-		classic_liberal = { 
-			popularity = 38
-		}
-
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = {
-			popularity = 27
-			banned = yes #default is no
-		}
-		
-		utilitarian_despot = { 
-			popularity = 14
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 21
+        classic_liberal = 38
+        social_conservatism = 0
+        authoritarian_democrat = 27
+        utilitarian_despot = 14
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 set_convoys = 5
@@ -94,16 +53,6 @@ create_field_marshal = {
     logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Prenk Pervizi"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { career_officer politically_connected mountaineer infantry_leader }
-	skill = 3
-	attack_skill = 4
-    defense_skill = 3
-    planning_skill = 1
-    logistics_skill = 2
-}
 
 create_corps_commander = {
 	name = "Gustav Mirdashi"
@@ -116,6 +65,16 @@ create_corps_commander = {
     logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Prenk Pervizi"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { career_officer politically_connected mountaineer infantry_leader }
+	skill = 3
+	attack_skill = 4
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 2
+}
 
 create_corps_commander = {
 	name = "Xhemal Aranitasi"
