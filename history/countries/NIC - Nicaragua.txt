@@ -1,4 +1,4 @@
-﻿capital = 317
+capital = 317
 
 oob = "NIC_1936"
 
@@ -61,30 +61,25 @@ set_convoys = 10
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 15
-		}
-
-		national_collectivist = {
-			popularity = 5
-		}
-		
-		vanguard_communism = {
-			popularity = 10
-			#banned = no #default is no
-		}
-
-		authoritarian_democrat = {
-			popularity = 70
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1934.11.8"
+	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
@@ -98,37 +93,8 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 15
-			}
-
-			national_collectivist = {
-				popularity = 5
-			}
-			
-			vanguard_communism = {
-				popularity = 10
-				#banned = no #default is no
-			}
-
-			authoritarian_democrat = {
-				popularity = 70
-			}
-		}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1936.12.8"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-}
 	create_country_leader = {
-		name = "Anastasio Somoza García"
+		name = "Anastasio Somoza Garc�a"
 		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
 		picture = "GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
 		expire = "1965.1.1"

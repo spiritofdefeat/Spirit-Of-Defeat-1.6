@@ -1,4 +1,4 @@
-﻿capital = 286 #Phnom Penh NOT on the map as VP!
+capital = 286 #Phnom Penh NOT on the map as VP!#then make it
 
 oob = "CAM_1936"
 
@@ -41,28 +41,25 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 40
-		}
-
-#		national_collectivist = {
-#		
-#		}
-		
-		vanguard_communism = {
-			popularity = 25
-		}
-		authoritarian_democrat = {
-			popularity = 35
-		}
-	}
-
 	ruling_party = social_conservatism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 25
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 40
+        authoritarian_democrat = 35
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
@@ -78,7 +75,7 @@ create_country_leader = {
 
 #non standard english alphabet character
 create_country_leader = {
-	name = "Sisowath Youtévong"
+	name = "Sisowath Yout�vong"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1953.3.1"
@@ -99,5 +96,5 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything historical on national_collectivist
+#couldnt find anything historical on national_collectivist#thank you kanye very cool
 

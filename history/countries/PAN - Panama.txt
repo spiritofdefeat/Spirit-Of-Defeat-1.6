@@ -1,4 +1,4 @@
-﻿capital = 304
+capital = 304
 
 oob = "PAN_1936"
 
@@ -58,28 +58,26 @@ set_convoys = 10
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 100
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1932.6.5"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
 create_country_leader = {
 	name = "Harmodio Arias Madrid"
 	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
@@ -90,41 +88,6 @@ create_country_leader = {
 		#
 	}
 }
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 100
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1936.6.7"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Juan Demóstenes Arosemena"
-		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-		expire = "1965.1.1"
-		ideology = liberalism
-		traits = {
-			#
-		}
-	}
 
 	create_country_leader = {
 		name = "July Portocarrero"

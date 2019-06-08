@@ -1,4 +1,4 @@
-﻿capital = 70
+capital = 70
 
 oob = "SLO_1939"
 
@@ -59,25 +59,25 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 5
-		}
-
-		national_collectivist = {
-			popularity = 90
-		}
-		
-		vanguard_communism = {
-			popularity = 5
-		}
-	}
-	
-	ruling_party = national_collectivist
-	last_election = "1933.3.5"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {

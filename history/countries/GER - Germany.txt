@@ -1,4 +1,4 @@
-﻿capital = 64
+capital = 64
 
 oob = "GER_1936"
 
@@ -96,70 +96,27 @@ create_import = {
 		exporter = SWE
 }
 
-
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 14
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-		
-		democratic_socialism = { 
-			popularity = 1
-		}
-
-		social_democracy = {
-			popularity = 2
-		}
-		
-		social_liberal = {
-			popularity = 0
-			banned = yes #default is no
-		}
-		
-		classic_liberal = { 
-			popularity = 0
-		}
-
-		social_conservatism = {
-			popularity = 5
-		}
-		
-		authoritarian_democrat = {
-			popularity = 20
-			banned = yes #default is no
-		}
-		
-		utilitarian_despot = { 
-			popularity = 40
-		}
-
-		national_collectivist = {
-			popularity = 18
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
 	ruling_party = utilitarian_despot
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 13
+	revolutionary_socialism = 0
+	democratic_socialism = 1
+        social_democracy = 2
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 5
+        authoritarian_democrat = 20
+        utilitarian_despot = 40
+        national_collectivist = 18
+        nihilistic_extremism = 1
+}
 
 create_country_leader = {
 	name = "Gottfried Feder"

@@ -1,4 +1,4 @@
-ï»¿capital = 316
+capital = 316
 
 oob = "COS_1936"
 
@@ -55,30 +55,29 @@ set_convoys = 10
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 98
-		}
-
-		national_collectivist = {
-			popularity = 2
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1932.2.14"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Ricardo JimÃ©nez Oreamuno"
+	name = "Ricardo Jiménez Oreamuno"
 	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
 	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
 	expire = "1965.1.1"
@@ -88,32 +87,8 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 95
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 5
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1936.2.9"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
 	create_country_leader = {
-		name = "LeÃ³n CortÃ©s Castro"
+		name = "León Cortés Castro"
 		desc = "POLITICS_LEON_CORTES_CASTRO_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 		expire = "1965.1.1"

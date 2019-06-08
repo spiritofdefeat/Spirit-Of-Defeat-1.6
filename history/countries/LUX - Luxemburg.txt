@@ -1,4 +1,4 @@
-﻿capital = 8
+capital = 8
 
 oob = "LUX_1936"
 
@@ -62,49 +62,26 @@ set_stability = 0.8
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 92
-		}
-
-		national_collectivist = {
-			popularity = 3
-		}
-		
-		vanguard_communism = {
-			popularity = 5
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1934.6.3"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 92
-			}
-
-			national_collectivist = {
-				popularity = 3
-			}
-			
-			vanguard_communism = {
-				popularity = 5
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1937.6.6"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
 
 	create_country_leader = {
 		name = "Pierre Dupong"

@@ -1,4 +1,4 @@
-Ôªøcapital = 279
+capital = 279
 
 oob = "CHL_1936"
 if = {
@@ -115,27 +115,27 @@ set_convoys = 20
 }
 
 set_convoys = 5
+
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		social_conservatism = { 
-			popularity = 98
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 2
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1932.10.30"
-	election_frequency = 72  #but 4 years after this one in 1938.
-	elections_allowed = yes
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
@@ -148,30 +148,6 @@ create_country_leader = {
 		#
 	}
 }
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 100
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1938.10.25"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 
 	create_country_leader = {
 		name = "Pedro Aguirre Cerda"
@@ -186,8 +162,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jorge Gonz√°lez von Mar√©es"
-	desc = "POLITICS_JORGE_GONZ√ÅLEZ_VON_MAR√âES_DESC"
+	name = "Jorge Gonz·lez von MarÈes"
+	desc = "POLITICS_JORGE_GONZ¡LEZ_VON_MAR…ES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = nazism
@@ -208,7 +184,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Escudero Oscar Ot√°rola"
+	name = "Escudero Oscar Ot·rola"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	traits = { trait_mountaineer }
 	skill = 4
@@ -225,7 +201,7 @@ if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
 	create_equipment_variant = {
-		name = "Capit√°n O'Brien Class"
+		name = "Capit·n O'Brien Class"
 		type = submarine_1
 		upgrades = {
 			ship_reliability_upgrade = 1
@@ -261,7 +237,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Capit√°n O'Brien Class"				
+		name = "Capit·n O'Brien Class"				
 		type = ship_hull_submarine_1
 		name_group = CHL_SS_HISTORICAL
 		parent_version = 0

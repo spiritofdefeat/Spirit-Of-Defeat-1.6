@@ -1,4 +1,4 @@
-﻿capital = 284
+capital = 284
 
 oob = "NZL_1936"
 
@@ -147,27 +147,27 @@ if = {
 		}
 	}
 }
+
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 100
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = social_conservatism
-	last_election = "1935.11.27"
-	election_frequency = 36
-	elections_allowed = yes
+	last_election = "1929.11.1"#fix the election date
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 100
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
@@ -216,30 +216,6 @@ create_country_leader = {
 
 set_convoys = 70
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 100
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1938.10.15"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-
 	# Didn't take office until '40, added for flavor
 	create_country_leader = {
 		name = "Peter Fraser"
@@ -251,7 +227,6 @@ set_convoys = 70
 			#
 		}
 	}
-	set_convoys = 50
 }
 
 create_corps_commander = {

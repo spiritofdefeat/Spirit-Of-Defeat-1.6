@@ -1,4 +1,4 @@
-﻿capital = 335 #Jakarta
+capital = 335 #Jakarta
 
 oob = "INS_1936"
 
@@ -25,23 +25,25 @@ set_technology = {
 set_convoys = 25
 
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		social_conservatism = { 
-			popularity = 10
-		}
-
-		national_collectivist = {
-			popularity = 10
-		}
-		
-		vanguard_communism = {
-			popularity = 30
-		}
-		authoritarian_democrat = {
-			popularity = 50
-		}
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {

@@ -1,4 +1,4 @@
-﻿capital = 107
+capital = 107
 
 oob = "YUG_1936"
 if = {
@@ -182,62 +182,30 @@ if = {
 }
 
 set_convoys = 10
+
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 15
-		}
-
-		national_collectivist = {
-			popularity = 10
-		}
-		
-		vanguard_communism = {
-			popularity = 15
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 60
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1935.5.3"
-	election_frequency = 36
-	elections_allowed = yes
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 5
-			}
-
-			national_collectivist = {
-				popularity = 20
-			}
-			
-			vanguard_communism = {
-				popularity = 5
-				#banned = no #default is no
-			}
-			
-			authoritarian_democrat = { 
-				popularity = 60
-			}
-		}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1938.12.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
+
+
 set_stability = 0.6
 
 create_country_leader = {
@@ -252,7 +220,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Milan Stojadinović"
+	name = "Milan Stojadinovi?"
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
 	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
 	expire = "1965.1.1"
@@ -285,7 +253,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Vladimir Čukavac"
+	name = "Vladimir ?ukavac"
 	gfx = GFX_Portrait_yugoslavia_vladimir_cukavac
 	traits = { trickster  }
 	skill = 3
@@ -297,7 +265,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ivan Gošnjak"
+	name = "Ivan Go�njak"
 	gfx = GFX_Portrait_yugoslavia_ivan_gosnjak
 	traits = { urban_assault_specialist }
 	skill = 3
@@ -309,7 +277,7 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Danilo Kalafatović"
+	name = "Danilo Kalafatovi?"
 	gfx = GFX_Portrait_yugoslavia_danilo_kalafatovic
 	traits = {  }
 	skill = 2
@@ -320,7 +288,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Milutin Nedić"
+	name = "Milutin Nedi?"
 	gfx = GFX_Portrait_yugoslavia_milutin_nedic
 	traits = { thorough_planner }
 	skill = 3	
@@ -331,7 +299,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Petar Kosić"
+	name = "Petar Kosi?"
 	gfx = GFX_Portrait_yugoslavia_petar_kosic
 	traits = {  }
 	skill = 2
@@ -342,7 +310,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Marijan Polić"
+	name = "Marijan Poli?"
 	gfx = GFX_Portrait_yugoslavia_marijan_polic
 	traits = { old_guard_navy navy_career_officer }
 	skill = 2

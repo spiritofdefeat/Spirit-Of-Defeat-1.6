@@ -1,4 +1,4 @@
-﻿capital = 769
+capital = 769
 
 # Starting tech
 set_technology = {
@@ -53,58 +53,24 @@ set_convoys = 0
 	}
 }
 
-
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 55
-		}
-
-		national_collectivist = {
-			popularity = 15
-		}
-		
-		vanguard_communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 25
-		}
-	}
-	
 	ruling_party = social_conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 55
-		}
-
-		national_collectivist = {
-			popularity = 15
-		}
-		
-		vanguard_communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 25
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 5
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 55
+        authoritarian_democrat = 25
+        utilitarian_despot = 0
+        national_collectivist = 15
+        nihilistic_extremism = 0
 }

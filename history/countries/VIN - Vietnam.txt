@@ -1,4 +1,4 @@
-Ôªøcapital = 671 #Hanoi
+capital = 671 #Hanoi
 
 oob = "VIN_1936"
 
@@ -41,34 +41,31 @@ set_technology = {
 }
 
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		social_conservatism = { 
-			popularity = 35
-		}
-
-		national_collectivist = {
-			popularity = 15
-		}
-		
-		vanguard_communism = {
-			popularity = 15
-		}
-		authoritarian_democrat = {
-			popularity = 35
-		}
-	}
-
-	ruling_party = social_conservatism
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
 create_country_leader = {
-	name = "Phan B√¥i Ch√¢u" 
+	name = "Phan BÙi Ch‚u" 
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1953.3.1"
@@ -79,7 +76,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ho Ch√≠ Minh" 
+	name = "Ho ChÌ Minh" 
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_vanguard_communism.dds"
 	expire = "1953.3.1"
@@ -90,7 +87,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ng√¥ ƒê√¨nh Di√™m"
+	name = "NgÙ ?Ïnh DiÍm"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 	expire = "1953.3.1"

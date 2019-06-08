@@ -1,4 +1,4 @@
-ï»¿capital = 315
+capital = 315
 
 oob = "CUB_1936"
 
@@ -58,30 +58,29 @@ set_convoys = 20
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 98
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 2
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1936.1.10"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "JosÃ© Agripino Barnet"
+	name = "José Agripino Barnet"
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
 	picture = "GFX_portrait_cuba_jose_barnet"
 	expire = "1965.1.1"
@@ -91,32 +90,8 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 98
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 2
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1936.1.10"
-		election_frequency = 48  
-		elections_allowed = yes
-	}
-
 	create_country_leader = {
-		name = "Federico Laredo BrÃº"
+		name = "Federico Laredo Brú"
 		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 		expire = "1965.1.1"

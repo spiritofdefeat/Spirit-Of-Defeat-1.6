@@ -1,4 +1,4 @@
-ï»¿capital = 141	
+capital = 141	
 
 oob = "SWE_1936"
 if = {
@@ -142,59 +142,25 @@ if = {
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 75
-		}
-
-		authoritarian_democrat = {
-			popularity  = 14
-		}
-
-		vanguard_communism = {
-			popularity = 8
-		}
-
-		national_collectivist = {
-			popularity = 3
-		}
-		
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1932.9.18"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 85
-			}
-
-			authoritarian_democrat = {
-				popularity  = 12
-			}
-
-			vanguard_communism = {
-				popularity = 4
-			}
-
-			national_collectivist = {
-				popularity = 1
-			}
-			
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1936.9.20"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 set_convoys = 25
@@ -248,7 +214,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Folke HÃ¶gberg"
+	name = "Folke Högberg"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { commando }
 	skill = 3
@@ -272,7 +238,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Claes LindstrÃ¶m"
+	name = "Claes Lindström"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { battleship_adherent blockade_runner }
 	skill = 4
@@ -303,7 +269,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Hajen Class"					# represents Hajen and BÃ¤vern classes	
+		name = "Hajen Class"					# represents Hajen and Bävern classes	
 		type = ship_hull_submarine_1
 		name_group = SWE_SS_HISTORICAL
 		parent_version = 0
@@ -339,7 +305,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Ã–rnen Class"					# torpedo boats		
+		name = "Örnen Class"					# torpedo boats		
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -356,7 +322,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "EhrenskÃ¶ld Class"				# represents EhrenskÃ¶ld	and Klas Horn classes
+		name = "Ehrensköld Class"				# represents Ehrensköld	and Klas Horn classes
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -390,7 +356,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "GÃ¶teborg Class"	
+		name = "Göteborg Class"	
 		type = ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -426,7 +392,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Ã„ran Class"				
+		name = "Äran Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		parent_version = 0
@@ -523,7 +489,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "SjÃ¶lejonet Class"				
+			name = "Sjölejonet Class"				
 			type = ship_hull_submarine_2
 			name_group = SWE_SS_HISTORICAL
 			parent_version = 0

@@ -1,4 +1,4 @@
-﻿capital = 7
+capital = 7
 
 oob = "HOL_1936"
 if = {
@@ -209,25 +209,25 @@ if = {
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 93
-		}
-
-		national_collectivist = {
-			popularity = 4
-		}
-		
-		vanguard_communism = {
-			popularity = 3
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1933.4.26"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 set_convoys = 150
@@ -499,7 +499,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck 
+		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinci�n) and Jacob van Heemskerck 
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = HOL_CA_HISTORICAL
 		parent_version = 0

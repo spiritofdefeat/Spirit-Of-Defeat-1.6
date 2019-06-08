@@ -1,4 +1,4 @@
-﻿capital = 831
+capital = 831
 
 oob = "USA_1936"
 if = {
@@ -258,36 +258,26 @@ give_guarantee = URG
 
 set_convoys = 400
 
-
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 47
-		}
-
-		classic_liberal = {
-			popularity = 47
-		}
-
-		social_liberal = {
-			popularity = 2
-		}
-		
-		democratic_socialism = {
-			popularity = 2
-			#banned = no #default is no
-		}
-
-		authoritarian_democrat = {
-			popularity = 2
-		}
-	}
-	
 	ruling_party = classic_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 2
+        social_democracy = 0
+        social_liberal = 2
+        classic_liberal = 47
+        social_conservatism = 47
+        authoritarian_democrat = 2
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 add_ideas = {
@@ -303,40 +293,6 @@ add_ideas = {
 set_autonomy = {
 	target = PHI
 	autonomous_state =  autonomy_puppet
-}
-
-1939.1.1 = {
-
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 47
-			}
-
-			classic_liberal = {
-				popularity = 47
-			}
-
-			social_liberal = {
-				popularity = 2
-			}
-			
-			democratic_socialism = {
-				popularity = 2
-				#banned = no #default is no
-			}
-
-			authoritarian_democrat = {
-				popularity = 2
-			}
-		}
-		
-		ruling_party = classic_liberal
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }
 
 create_country_leader = {

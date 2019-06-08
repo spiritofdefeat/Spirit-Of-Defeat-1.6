@@ -1,4 +1,4 @@
-﻿capital = 10
+capital = 10
 
 oob = "POL_1936"
 if = {
@@ -175,6 +175,28 @@ if = {
 set_convoys = 10
 
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 2
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 18
+        authoritarian_democrat = 65
+        utilitarian_despot = 0
+        national_collectivist = 15
+        nihilistic_extremism = 0
+}
+
+set_politics = {
 
 	parties = {
 		social_conservatism = { 
@@ -200,36 +222,8 @@ set_politics = {
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 13
-			}
-
-			national_collectivist = {
-				popularity = 7
-			}
-			
-			vanguard_communism = {
-				popularity = 2
-			}
-			
-			authoritarian_democrat = { 
-				popularity = 78
-			}
-		}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1935.9.8"
-		election_frequency = 36
-		elections_allowed = no
-	}
-}
-
 create_country_leader = {
-	name = "Józef Piłsudski"
+	name = "J�zef Pi?sudski"
 	desc = "POLITICS_JOZEF_PILSUDSKI_DESC"
 	picture = "Pilsudski.png"
 	expire = "1965.1.1"
@@ -240,7 +234,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ignacy Mościcki"
+	name = "Ignacy Mo?cicki"
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
@@ -251,7 +245,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Władysław Gomułka"
+	name = "W?adys?aw Gomu?ka"
 	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
 	expire = "1965.1.1"
@@ -273,7 +267,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bolesław Piasecki"
+	name = "Boles?aw Piasecki"
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
 	picture = "GFX_POL_boleslaw_piasecki"
 	expire = "1965.1.1"
@@ -284,7 +278,7 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Władysław Sikorski"
+	name = "W?adys?aw Sikorski"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	traits = { defensive_doctrine }
 	skill = 3
@@ -295,7 +289,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Władysław Bortnowski"
+	name = "W?adys?aw Bortnowski"
 	gfx = "GFX_POL_wladyslaw_bortnowski"
 	traits = {  thorough_planner }
 	skill = 3
@@ -306,7 +300,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Stanisław Kopański"
+	name = "Stanis?aw Kopa?ski"
 	gfx = "GFX_POL_stanislav_kopanski"
 	traits = {  offensive_doctrine }
 	skill = 3
@@ -317,7 +311,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Władysław Anders"
+	name = "W?adys?aw Anders"
 	gfx = "GFX_POL_wladislaw_anders"
 	traits = {  armor_officer }
 	skill = 4

@@ -125,63 +125,26 @@ if = {
 	}
 }
 
-
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 19
-		}
-
-                social_democracy = { 
-			popularity = 47
-		}
-
-		national_collectivist = {
-			popularity = 2
-		}
-
-                social_liberal = {
-			popularity = 10
-		}
-
-                classic_liberal = { 
-			popularity = 19
-		}
-
-		vanguard_communism = {
-			popularity = 3
-		}
-	}
-	
 	ruling_party = social_democracy
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 97
-			}
-
-			national_collectivist = {
-				popularity = 1
-			}
-			
-			vanguard_communism = {
-				popularity = 2
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1939.4.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 3
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 47
+        social_liberal = 10
+        classic_liberal = 19
+        social_conservatism = 19
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 2
+        nihilistic_extremism = 0
 }
 
 set_convoys = 40
@@ -209,7 +172,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Christmas Møller"
+	name = "John Christmas Moller"
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "#Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
@@ -320,29 +283,6 @@ if = {
 			mid_1_custom_slot = ship_anti_air_1
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = ship_light_medium_battery_1
-		}
-	}
-}
-
-# 1939 Start #
-1939.1.1 = {
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		# Submarines #
-		create_equipment_variant = {
-			name = "Havmanden Class"				
-			type = ship_hull_submarine_1
-			name_group = DEN_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = empty
-			}
 		}
 	}
 }

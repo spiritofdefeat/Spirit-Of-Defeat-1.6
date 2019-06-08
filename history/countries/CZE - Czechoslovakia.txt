@@ -1,4 +1,4 @@
-Ôªøcapital = 9
+capital = 9
 
 oob = "CZE_1936"
 
@@ -22,33 +22,29 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		social_conservatism = { 
-			popularity = 65
-		}
-
-		authoritarian_democrat = { 
-			popularity = 20
-		}
-
-		national_collectivist = {
-			popularity = 5
-		}
-		
-		vanguard_communism = {
-			popularity = 10
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1935.5.19"
-	election_frequency = 60
-	elections_allowed = yes
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Edvard Bene≈°"
+	name = "Edvard Beneö"
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
@@ -59,7 +55,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaroslav Krejƒç√≠"
+	name = "Jaroslav Krej?Ì"
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
@@ -81,7 +77,7 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Vojtƒõch Lu≈æa"
+	name = "Vojt?ch Luûa"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
 	traits = { fast_planner offensive_doctrine }
 	skill = 3
@@ -92,7 +88,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Josef ≈†nejd√°rek"
+	name = "Josef änejd·rek"
 	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
 	traits = { thorough_planner defensive_doctrine }
 	skill = 3
@@ -103,7 +99,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Richard Tesa≈ô√≠k"
+	name = "Richard Tesa?Ìk"
 	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
 	traits = { armor_officer }
 	skill = 2
@@ -114,7 +110,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Sergej Vojcechovsk√Ω"
+	name = "Sergej Vojcechovsk˝"
 	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
 	traits = { winter_specialist }
 	skill = 3

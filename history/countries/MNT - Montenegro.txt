@@ -1,4 +1,4 @@
-﻿capital = 105 # Montenegro
+capital = 105 # Montenegro
 
 oob = "MON_1936"
 
@@ -21,22 +21,29 @@ set_technology = {
 }
 
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		national_collectivist = { 
-			popularity = 33
-		}
-		authoritarian_democrat = { 
-			popularity = 33
-		}		
-		vanguard_communism = {
-			popularity = 34
-		}
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Sekula Drljević"
+	name = "Sekula Drljevi?"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1953.3.1"
@@ -47,7 +54,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Novica Radović"
+	name = "Novica Radovi?"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1953.3.1"
@@ -58,7 +65,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Blažo Jovanović"
+	name = "Bla�o Jovanovi?"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"

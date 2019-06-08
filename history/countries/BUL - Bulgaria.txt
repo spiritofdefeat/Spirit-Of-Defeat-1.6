@@ -76,57 +76,25 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 3
-		}
-
-		national_collectivist = {
-			popularity = 13
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			banned = yes
-		}
-		authoritarian_democrat = { 
-			popularity = 84
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
 	last_election = "1931.6.21"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 5
-		}
-
-		national_collectivist = {
-			popularity = 35
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			banned = yes
-		}
-		authoritarian_democrat = { 
-			popularity = 60
-		}
-	}
-	
-	ruling_party = authoritarian_democrat
-	last_election = "1938.3.27"
-	election_frequency = 48
-	elections_allowed = no
-}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 3
+        authoritarian_democrat = 84
+        utilitarian_despot = 0
+        national_collectivist = 13
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {

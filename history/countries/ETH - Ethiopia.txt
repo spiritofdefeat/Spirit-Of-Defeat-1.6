@@ -1,4 +1,4 @@
-﻿capital = 271
+capital = 271
 
 oob = "ETH_1936"
 
@@ -45,84 +45,27 @@ set_convoys = 5
 		dispersed_industry2 = 1
 	}
 }
+
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 100
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1936.1.1"
+	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Haile Selassie"
-	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fitawrari Yeebio Woldai"
-	desc = "POLITICS_YEEBIO_WOLDAI_DESC"
-	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-
-#Now a colony of Italy  However, if independent it would have
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		social_conservatism = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 100
-		}
-	}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_corps_commander = {

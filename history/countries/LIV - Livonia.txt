@@ -1,4 +1,4 @@
-﻿capital = 813
+capital = 813
 
 oob = "LIV_1936"
 if = {
@@ -99,61 +99,29 @@ set_convoys = 10
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 30
-		}
-
-		national_collectivist = {
-			popularity = 15
-		}
-		
-		vanguard_communism = {
-			popularity = 15
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 50
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1931.10.3"
-	election_frequency = 108
+	last_election = "1929.11.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-1939.1.1 = {# probably needs some adjustment before nazi occupation in 1940
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 30
-			}
-
-			national_collectivist = {
-				popularity = 15
-			}
-			
-			vanguard_communism = {
-				popularity = 15
-			}
-			
-			authoritarian_democrat = { 
-				popularity = 50
-			}
-		}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1931.10.3"
-		election_frequency = 108
-		elections_allowed = no
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Uļi Kīnkamäg"
+	name = "U?i K?nkam�g"
 	desc = "POLITICS_KINKAMAG_DESC"
 	picture = ""
 	expire = "1965.1.1"
@@ -164,7 +132,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustavs Celmiņš"
+	name = "Gustavs Celmi?�"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"

@@ -1,4 +1,4 @@
-﻿capital = 6
+capital = 6
 
 oob = "BEL_1936"
 
@@ -19,66 +19,27 @@ set_technology = {
 	fuel_refining = 1
 }
 
-
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 2.90
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-		}
-		
-		democratic_socialism = { 
-			popularity = 37.03
-		}
-
-		social_democracy = {
-			popularity = 0
-		}
-		
-		social_liberal = {
-			popularity = 0
-		}
-		
-		classic_liberal = { 
-			popularity = 14.06
-		}
-
-		social_conservatism = {
-			popularity = 38.42
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		
-		utilitarian_despot = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 7.59
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-		}
-	}
-	
 	ruling_party = social_conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 2.90
+	revolutionary_socialism = 0
+	democratic_socialism = 37.03
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 14.06
+        social_conservatism = 38.42
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 7.59
+        nihilistic_extremism = 0
+}
 
 set_convoys = 80
 set_stability = 0.75

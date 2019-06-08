@@ -1,4 +1,4 @@
-﻿capital = 318
+capital = 318
 
 oob = "HAI_1936"
 
@@ -59,30 +59,29 @@ set_convoys = 5
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 100
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
+
 create_country_leader = {
-	name = "Sténio Vincent"
+	name = "St�nio Vincent"
 	desc = "POLITICS_STENIO_VINCENT_DESC"
 	picture = "GFX_portrait_haiti_stenio_vincent"
 	expire = "1965.1.1"
@@ -100,30 +99,5 @@ create_country_leader = {
 	ideology = marxism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 100
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
 	}
 }

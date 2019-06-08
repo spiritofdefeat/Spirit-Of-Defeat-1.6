@@ -1,4 +1,4 @@
-﻿capital = 285
+capital = 285
 
 oob = "AST_1936"
 set_stability = 0.8
@@ -67,68 +67,26 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-		}
-		
-		democratic_socialism = { 
-			popularity = 26
-		}
-
-		social_democracy = {
-			popularity = 14
-		}
-		
-		social_liberal = {
-			popularity = 0
-		}
-		
-		classic_liberal = { 
-			popularity = 33
-		}
-
-		social_conservatism = {
-			popularity = 12
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		
-		utilitarian_despot = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
 	ruling_party = classic_liberal
 	last_election = "1934.9.15"
 	election_frequency = 48
 	elections_allowed = yes
-
 }
 
-
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 26
+        social_democracy = 14
+        social_liberal = 0
+        classic_liberal = 33
+        social_conservatism = 12
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
 
 set_convoys = 100
-

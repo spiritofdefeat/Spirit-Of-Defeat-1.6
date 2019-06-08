@@ -1,4 +1,4 @@
-﻿capital = 302
+capital = 302
 
 oob = "BOL_1936"
 
@@ -13,62 +13,24 @@ set_technology = {
 }
 set_country_flag = monroe_doctrine
 
-
-sset_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-		}
-		
-		democratic_socialism = { 
-			popularity = 0
-		}
-
-		social_democracy = {
-			popularity = 0
-		}
-		
-		social_liberal = {
-			popularity = 0
-		}
-		
-		classic_liberal = { 
-			popularity = 40.79
-		}
-
-		social_conservatism = {
-			popularity = 59.21
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		
-		utilitarian_despot = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-		}
-	}
-	
+set_politics = {
 	ruling_party = social_conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 40.79
+        social_conservatism = 59.21
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }

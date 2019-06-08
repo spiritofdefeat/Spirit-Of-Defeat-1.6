@@ -1,4 +1,4 @@
-Ôªøcapital = 277
+capital = 277
 
 oob = "MEX_1936"
 if = {
@@ -186,33 +186,29 @@ if = {
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 18
-		}
-
-		national_collectivist = {
-			popularity = 20
-		}
-		
-		vanguard_communism = {
-			popularity = 9
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 53
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1934.7.1"
-	election_frequency = 72
-	elections_allowed = yes
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "L√°zaro C√°rdenas"
+	name = "L·zaro C·rdenas"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 	expire = "1965.1.1"
@@ -256,7 +252,7 @@ create_country_leader = { # Stalinist, took over after assassination of Trotsky.
 }
 
 create_country_leader = { # Trotskyist, led the PCM 1929-1940
-	name = "Hern√°n Laborde"
+	name = "Hern·n Laborde"
 	desc = "POLITICS_HERNAN_LABORDE_DESC"
 	picture = "GFX_Portrait_MEX_Hernan_Laborde"
 	expire = "1965.1.1"
@@ -267,7 +263,7 @@ create_country_leader = { # Trotskyist, led the PCM 1929-1940
 }
 
 create_field_marshal = {
-	name = "L√°zaro C√°rdenas"
+	name = "L·zaro C·rdenas"
 	id = 712
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 	traits = { politically_connected }
@@ -303,7 +299,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Gildardo Maga√±a"
+	name = "Gildardo MagaÒa"
 	id = 702
 	gfx = "GFX_portrait_mex_gildardo_magana"
 	traits = { media_personality } # Headed some political organisations like trade unions
@@ -315,7 +311,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Manuel P√©rez Trevi√±o"
+	name = "Manuel PÈrez TreviÒo"
 	id = 703
 	gfx = "GFX_portrait_mex_manuel_perez_trevino"
 	traits = { career_officer } # Pre-Revolutionary officer training
@@ -327,7 +323,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Abelardo L. Rodr√≠guez"
+	name = "Abelardo L. RodrÌguez"
 	id = 704
 	gfx = "GFX_portrait_mex_abelardo_rodriguez"
 	traits = { politically_connected } # President prior to Cardenas
@@ -339,7 +335,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Manuel √Åvila Camacho"
+	name = "Manuel ¡vila Camacho"
 	id = 705
 	gfx = "GFX_portrait_mex_avila_military"
 	traits = { politically_connected } # Future president
@@ -351,7 +347,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Oth√≥n P. Blanco N√∫√±ez de C√°ceres"
+	name = "OthÛn P. Blanco N˙Òez de C·ceres"
 	id = 706
 	gfx = "GFX_portrait_mex_othon_blanco"
 	traits = { old_guard_navy }
@@ -388,7 +384,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Nicol√°s Bravo Class"
+		name = "Nicol·s Bravo Class"
 		type = destroyer_1
 		upgrades = {
 			ship_torpedo_upgrade = 1
@@ -402,7 +398,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Nicol√°s Bravo Class"			
+		name = "Nicol·s Bravo Class"			
 		type = ship_hull_light_1
 		name_group = MEX_DD_HISTORICAL
 		parent_version = 0

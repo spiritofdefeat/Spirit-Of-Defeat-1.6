@@ -1,4 +1,4 @@
-﻿capital = 4
+capital = 4
 
 oob = "SRO_1936"
 
@@ -15,62 +15,25 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 12
-		}
-
-		vanguard_communism = {
-			popularity = 6
-		}
-		
-		revolutionary_socialism = {
-			popularity = 2
-		}
-		
-		democratic_socialism = { 
-			popularity = 52
-		}
-
-		social_democracy = {
-			popularity = 28
-		}
-		
-		social_liberal = {
-			popularity = 0
-		}
-		
-		classic_liberal = { 
-			popularity = 0
-		}
-
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		
-		utilitarian_despot = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-		}
-	}
-	
 	ruling_party = democratic_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
 
+set_popularities = {
+	totalitarian_socialism = 12
+	vanguard_communism = 6
+	revolutionary_socialism = 2
+	democratic_socialism = 52
+        social_democracy = 28
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 set_stability = 0.70

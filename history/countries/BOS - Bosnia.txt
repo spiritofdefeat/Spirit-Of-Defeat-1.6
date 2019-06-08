@@ -1,4 +1,4 @@
-﻿capital = 104
+capital = 104
 
 set_research_slots = 3
 
@@ -19,18 +19,24 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		national_collectivist = { 
-			popularity = 33
-		}
-		authoritarian_democrat = { 
-			popularity = 33
-		}		
-		vanguard_communism = {
-			popularity = 34
-		}
-	}
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 34
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 33
+        utilitarian_despot = 0
+        national_collectivist = 33
+        nihilistic_extremism = 0
+}
 

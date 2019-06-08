@@ -1,4 +1,4 @@
-﻿capital = 3
+capital = 3
 
 oob = "SWI_1936"
 
@@ -67,49 +67,25 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 96
-		}
-
-		national_collectivist = {
-			popularity = 2
-		}
-		
-		vanguard_communism = {
-			popularity = 2
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1935.10.27"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
-1939.1.1 = {#next election october 39
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 95
-			}
-
-			national_collectivist = {
-				popularity = 2
-			}
-			
-			vanguard_communism = {
-				popularity = 3
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1935.10.27"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 add_ideas = {
@@ -131,7 +107,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernest Béuin"
+	name = "Ernest B�uin"
 	desc = "POLITICS_ERNST_BEGUIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"

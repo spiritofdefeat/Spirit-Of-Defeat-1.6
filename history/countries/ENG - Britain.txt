@@ -1,4 +1,4 @@
-﻿capital = 126
+capital = 126
 
 set_oob = "ENG_1936"
 if = {
@@ -167,222 +167,33 @@ set_convoys = 800
 		freedom_level = 0.85
 	}
 
-#Define puppet popularites here so pie chart isnt a mess
-JOH = {
-	set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-		}
-		
-		democratic_socialism = { 
-			popularity = 0
-		}
-
-		social_democracy = {
-			popularity = 0
-		}
-		
-		social_liberal = {
-			popularity = 0
-		}
-		
-		classic_liberal = { 
-			popularity = 0
-		}
-
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		
-		utilitarian_despot = { 
-			popularity = 100
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-		}
-	}
-	
-	ruling_party = utilitarian_despot
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-
-}
-
-}
-
-KED = {
-	set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-		}
-		
-		democratic_socialism = { 
-			popularity = 0
-		}
-
-		social_democracy = {
-			popularity = 0
-		}
-		
-		social_liberal = {
-			popularity = 0
-		}
-		
-		classic_liberal = { 
-			popularity = 0
-		}
-
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		
-		utilitarian_despot = { 
-			popularity = 100
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-		}
-	}
-	
-	ruling_party = utilitarian_despot
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-
-}
-
-}
-
-PRL = {
-	set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 0
-		}
-
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		revolutionary_socialism = {
-			popularity = 0
-		}
-		
-		democratic_socialism = { 
-			popularity = 0
-		}
-
-		social_democracy = {
-			popularity = 0
-		}
-		
-		social_liberal = {
-			popularity = 0
-		}
-		
-		classic_liberal = { 
-			popularity = 0
-		}
-
-		social_conservatism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = {
-			popularity = 0
-		}
-		
-		utilitarian_despot = { 
-			popularity = 100
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		nihilistic_extremism = {
-			popularity = 0
-		}
-	}
-	
-	ruling_party = utilitarian_despot
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-
-}
-}
-
 if = {
 	limit = { has_dlc = "Together for Victory" }
 
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 97
-		}
-
-		national_collectivist = {
-			popularity = 2
-		}
-		
-		vanguard_communism = {
-			popularity = 1
-		}
-	}
-	
 	ruling_party = social_conservatism
-	last_election = "1935.11.14"
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no
 }
 
-
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 1
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 97
+        authoritarian_democrat = 0
+        utilitarian_despot = 0
+        national_collectivist = 2
+        nihilistic_extremism = 0
+}
 
 create_faction = Allies
 add_to_faction = ENG
@@ -419,7 +230,7 @@ create_country_leader = {
 	expire = "1938.1.1"
 	ideology = liberalism
 	traits = {
-		conservative_grandee
+		conservative_grandee#hahahahha get the joke liberalism and conservative HHAHAHHAHAHHAHAHh
 	}
 }
 
@@ -1458,206 +1269,4 @@ if = {
 		obsolete = yes
 	}
 	
-}
-1939.1.1 = {
-	if = {
-		limit = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		create_equipment_variant = {
-			name = "Tribal Class"
-			type = destroyer_2
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				destroyer_engine_upgrade = 2
-				ship_ASW_upgrade = 2
-				ship_anti_air_upgrade = 2
-			}
-		}
-		create_equipment_variant = {
-			name = "Edinburgh Class"
-			type = light_cruiser_2
-			upgrades = {
-				ship_reliability_upgrade = 3
-				ship_engine_upgrade = 3
-				ship_gun_upgrade = 3
-				ship_anti_air_upgrade = 3
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
-			name = "Ark Royal Class"
-			type = ship_hull_carrier_1
-			name_group = ENG_CV_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries
-				front_1_custom_slot = ship_deck_space
-			}
-		}
-		create_equipment_variant = {
-			name = "Illustrious Class"
-			type = ship_hull_carrier_2
-			name_group = ENG_CV_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries
-				front_1_custom_slot = ship_deck_space
-				mid_1_custom_slot = ship_armor_carrier_deck
-			}
-		}
-		create_equipment_variant = {
-			name = "Town Class"
-			type = ship_hull_cruiser_2
-			name_group = ENG_CL_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_2
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_2
-				fixed_ship_armor_slot = ship_armor_cruiser_2
-				front_1_custom_slot = ship_anti_air_2
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = dp_ship_secondaries
-				rear_1_custom_slot = ship_light_medium_battery_2
-			}
-			obsolete = yes
-		}
-		create_equipment_variant = {
-			name = "Dido Class"
-			type = ship_hull_cruiser_2
-			name_group = ENG_CLAA_HISTORICAL
-			parent_version = 1
-			modules = {
-				fixed_ship_battery_slot = dp_light_battery
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_2
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				front_1_custom_slot = empty
-				mid_1_custom_slot = ship_anti_air_1
-				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = dp_light_battery
-			}
-		}
-		create_equipment_variant = {
-			name = "Crown Colony Class"
-			type = ship_hull_cruiser_3
-			name_group = ENG_CL_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_2
-				fixed_ship_armor_slot = ship_armor_cruiser_2
-				front_1_custom_slot = ship_anti_air_1
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = dp_ship_secondaries
-				rear_1_custom_slot = ship_light_medium_battery_2
-				rear_2_custom_slot = ship_anti_air_1
-			}
-		}
-		create_equipment_variant = {
-			name = "Tribal Class"
-			type = ship_hull_light_2
-			name_group = ENG_DD_HISTORICAL
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_engine_slot = light_ship_engine_2
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_light_battery_2
-				rear_1_custom_slot = ship_depth_charge_2
-			}
-		}
-		create_equipment_variant = {
-			name = "J/K/N Class"
-			type = ship_hull_light_3
-			name_group = ENG_DD_HISTORICAL
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_engine_slot = light_ship_engine_2
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				front_1_custom_slot = empty
-				mid_1_custom_slot = ship_torpedo_2
-				rear_1_custom_slot = ship_depth_charge_2
-			}
-		}
-		create_equipment_variant = {
-			name = "King George V Class"
-			type = ship_hull_heavy_2
-			name_group = ENG_BB_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_2
-				fixed_ship_secondaries_slot = dp_ship_secondaries
-				fixed_ship_armor_slot = ship_armor_bb_2
-				front_1_custom_slot = ship_anti_air_1
-				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = dp_ship_secondaries
-				rear_1_custom_slot = ship_heavy_battery_2
-			}
-		}
-		create_equipment_variant = {
-			name = "T Class"
-			type = ship_hull_submarine_2
-			name_group = ENG_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_2
-				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = empty
-			}
-		}
-		create_equipment_variant = {
-			name = "Grampus Class"
-			type = ship_hull_submarine_2
-			name_group = ENG_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_2
-				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = ship_mine_layer_sub
-			}
-		}
-		create_equipment_variant = {
-			name = "U Class"
-			type = ship_hull_submarine_1
-			name_group = ENG_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_2
-				fixed_ship_engine_slot = sub_ship_engine_2
-				rear_1_custom_slot = empty
-			}
-		}
-	}
 }

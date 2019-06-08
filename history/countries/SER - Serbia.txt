@@ -1,6 +1,6 @@
 capital = 107
 
-oob = "YUG_1936"
+oob = "SER_1936"
 
 set_research_slots = 3
 
@@ -83,30 +83,25 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 3
-		}
-
-		national_collectivist = {
-			popularity = 15
-		}
-		
-		vanguard_communism = {
-			popularity = 6
-			#banned = no #default is no
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 76
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 6
+	revolutionary_socialism = 0
+	democratic_socialism = 4
+        social_democracy = 0
+        social_liberal = 10
+        classic_liberal = 0
+        social_conservatism = 3
+        authoritarian_democrat = 48
+        utilitarian_despot = 14
+        national_collectivist = 15
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
@@ -153,33 +148,4 @@ create_country_leader = {
 	}
 }
 
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 3
-			}
-
-			national_collectivist = {
-				popularity = 15
-			}
-			
-			vanguard_communism = {
-				popularity = 6
-				#banned = no #default is no
-			}
-			
-			authoritarian_democrat = { 
-				popularity = 76
-			}
-		}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1938.1.1"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
 set_stability = 0.6

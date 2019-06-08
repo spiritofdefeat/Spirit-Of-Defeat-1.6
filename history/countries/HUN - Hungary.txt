@@ -1,4 +1,4 @@
-﻿capital = 43
+capital = 43
 
 oob = "HUN_1936"
 
@@ -125,25 +125,25 @@ if = {
 }
 
 set_politics = {
-	parties = {
-		social_conservatism = { 
-			popularity = 25
-		}
-		national_collectivist = {
-			popularity = 31
-		}
-		authoritarian_democrat = {
-			popularity = 44
-		}
-		vanguard_communism = {
-			popularity = 0
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1935.3.31"
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 #Start Horty as neutral if DOD
@@ -152,7 +152,7 @@ if = {
 		has_dlc = "Death or Dishonor"
 	}
 	create_country_leader = {
-		name = "Miklós Horthy"
+		name = "Mikl�s Horthy"
 		desc = "POLITICS_MIKLOS_HORTHY_DESC"
 		picture = "Portrait_Hungary_Miklos_Horthy.dds"
 		expire = "1965.1.1"
@@ -165,14 +165,14 @@ if = {
 	}
 	else = {
 		create_country_leader = {
-			name = "Miklós Horthy"
+			name = "Mikl�s Horthy"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 		}
 		create_country_leader = {
-			name = "Miklós Horthy"
+			name = "Mikl�s Horthy"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
@@ -182,7 +182,7 @@ if = {
 }
 
 create_country_leader = {
-	name = "Mátyás Rákosi"
+	name = "M�ty�s R�kosi"
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
 	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
 	expire = "1965.1.1"
@@ -193,7 +193,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Árpád Szakasits"
+	name = "�rp�d Szakasits"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -202,54 +202,9 @@ create_country_leader = {
 		#
 	}
 }
-
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = national_collectivist_ideology
-			traits = {
-				anti_communist
-			}
-			id = 503 #Horty fascist
-		}
-	}
-
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 27
-			}
-
-			national_collectivist = {
-				popularity = 70
-			}
-			
-			vanguard_communism = {
-				popularity = 3
-			}
-		}
-		
-		ruling_party = national_collectivist
-		last_election = "1939.5.29"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-}
-
-
+	
 create_corps_commander = {
-	name = "Géza Lakatos"
+	name = "G�za Lakatos"
 	gfx = GFX_Portrait_hungary_geza_lakatos
 	traits = {  }
 	skill = 3
@@ -260,7 +215,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Iván Hindy"
+	name = "Iv�n Hindy"
 	gfx = GFX_Portrait_hungary_ivan_hindy
 	traits = {  trickster }
 	skill = 4
@@ -271,7 +226,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Károly Beregfy"
+	name = "K�roly Beregfy"
 	gfx = GFX_Portrait_hungary_karoly_beregfy
 	traits = { }
 	skill = 1

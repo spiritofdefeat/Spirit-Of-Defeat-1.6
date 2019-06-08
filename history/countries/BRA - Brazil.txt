@@ -1,5 +1,4 @@
-ï»¿capital = 500
-
+capital = 500
 
 oob = "BRA_1936"
 
@@ -118,33 +117,29 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 100
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 1
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 3
+        classic_liberal = 0
+        social_conservatism = 1
+        authoritarian_democrat = 94
+        utilitarian_despot = 0
+        national_collectivist = 1
+        nihilistic_extremism = 0
+}
+
 create_country_leader = {
-	name = "GetÃºlio Vargas"
+	name = "Getúlio Vargas"
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
 	picture = "Portrait_Brazil_Getulio_Vargas.dds"
 	expire = "1965.1.1"
@@ -155,7 +150,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "PlÃ­nio Salgado"
+	name = "Plínio Salgado"
 	desc = "POLITICS_PLINIO_SALGADO_DESC"
 	picture = "Portrait_Brazil_Plinio_Salgado.dds"
 	expire = "1965.1.1"
@@ -165,7 +160,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "LuÃ­s Carlos Prestes"
+	name = "Luís Carlos Prestes"
 	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
@@ -186,36 +181,7 @@ create_country_leader = {
 	}
 }
 
-
 set_convoys = 40
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		social_conservatism = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 0
-		}
-		
-		authoritarian_democrat = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = authoritarian_democrat
-		last_election = "1934.7.17"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
 
 create_corps_commander = {
 	name = "Eurico Gaspar Dutra"
@@ -303,7 +269,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "HumaytÃ¡ Class"
+		name = "Humaytá Class"
 		type = ship_hull_submarine_2
 		name_group = BRA_SS_HISTORICAL
 		parent_version = 0
@@ -311,26 +277,6 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
 			rear_1_custom_slot = ship_mine_layer_sub
-		}
-	}
-}
-
-# 1939 Start #
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
-			name = "Tupi Class"
-			type = ship_hull_submarine_2
-			name_group = BRA_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_1
-				rear_1_custom_slot = empty
-			}
 		}
 	}
 }

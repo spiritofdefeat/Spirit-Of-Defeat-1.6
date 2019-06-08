@@ -1,4 +1,4 @@
-﻿capital = 622
+capital = 622
 
 oob = "PRC_1936"
 
@@ -130,51 +130,25 @@ save_global_event_target_as = WTT_communist_china
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 0
-		}
-		
-		vanguard_communism = {
-			popularity = 100
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = vanguard_communism
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 0
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 100
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = vanguard_communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 add_ideas = {

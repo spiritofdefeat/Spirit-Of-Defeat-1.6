@@ -1,4 +1,4 @@
-ï»¿capital = 64
+capital = 64
 
 # Starting tech
 set_technology = {
@@ -113,29 +113,26 @@ set_stability = 0.7
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 80
-		}
-
-		national_collectivist = {
-			popularity = 10
-		}
-		
-		vanguard_communism = {
-			popularity = 10
-			banned = no #default is no
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1936.1.1"
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
-
+	elections_allowed = no
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
 
 add_ideas = {
 }
@@ -183,7 +180,7 @@ create_country_leader = {
 #}
 #
 #create_country_leader = {
-#	name = "Ernst ThÃ¤lmann"
+#	name = "Ernst Thälmann"
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
@@ -200,7 +197,7 @@ create_country_leader = {
 ## 1936 Start ##
 # Light Cruisers #
 create_equipment_variant = {
-	name = "KÃ¶nigsberg Class"
+	name = "Königsberg Class"
 	type = light_cruiser_1
 	parent_version = 0
 	upgrades = {
@@ -240,7 +237,7 @@ create_equipment_variant = {
 	}
 	# Destroyer #
 	create_equipment_variant = {
-		name = "ZerstÃ¶rer 1936"
+		name = "Zerstörer 1936"
 		type = destroyer_2
 		parent_version = 0
 		upgrades = {

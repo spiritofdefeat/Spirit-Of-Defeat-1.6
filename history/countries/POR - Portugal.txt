@@ -1,4 +1,4 @@
-ï»¿capital = 112
+capital = 112
 
 oob = "POR_1936"
 if = {
@@ -106,57 +106,25 @@ if = {
 
 set_convoys = 50
 set_politics = {
-
-	parties = {
-		social_conservatism = {
-			popularity = 0
-		}
-
-		national_collectivist = {
-			popularity = 5
-		}
-		
-		vanguard_communism = {
-			popularity = 5
-		}
-		
-		authoritarian_democrat = {
-			popularity = 90
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1933.3.5"
+	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = {
-				popularity = 0
-			}
-
-			national_collectivist = {
-				popularity = 0
-			}
-			
-			vanguard_communism = {
-				popularity = 0
-			}
-			
-			authoritarian_democrat = {
-				popularity = 100
-			}
-		}
-		
-		ruling_party = authoritarian_democrat
-		last_election = "1938.10.30"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 set_convoys = 100
@@ -164,8 +132,8 @@ set_stability = 0.75
 
 
 create_country_leader = {
-	name = "AntÃ³nio de Oliveira Salazar"
-	desc = "POLITICS_ANTÃ“NIO_DE_OLIVEIRA_SALAZAR_DESC"
+	name = "António de Oliveira Salazar"
+	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
 	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -175,7 +143,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bento GonÃ§alves"
+	name = "Bento Gonçalves"
 	desc = "POLITICS_BENTO_GONCALVES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
@@ -186,7 +154,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Francisco de Barcelos RolÃ£o Preto"
+	name = "Francisco de Barcelos Rolão Preto"
 	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
@@ -198,7 +166,7 @@ create_country_leader = {
 
 
 create_corps_commander = {
-	name = "JosÃ© Vicente de Freitas"
+	name = "José Vicente de Freitas"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  }
 	skill = 3

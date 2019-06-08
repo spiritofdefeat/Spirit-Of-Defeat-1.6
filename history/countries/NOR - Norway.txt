@@ -1,4 +1,4 @@
-﻿capital = 110
+capital = 110
 
 oob = "NOR_1936"
 if = {
@@ -126,53 +126,25 @@ set_convoys = 200		# biggest merchant marine in the world
 set_stability = 0.7
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 96
-		}
-
-		national_collectivist = {
-			popularity = 2
-		}
-		
-		vanguard_communism = {
-			popularity = 2
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1933.10.16"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 84
-			}
-
-			national_collectivist = {
-				popularity = 2
-			}
-			
-			vanguard_communism = {
-				popularity = 2
-			}
-
-			authoritarian_democrat = {
-				popularity = 12
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
@@ -278,7 +250,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Frøya Class"								# minelayer		
+		name = "Fr�ya Class"								# minelayer		
 		type = ship_hull_light_1
 		parent_version = 0
 		modules = {

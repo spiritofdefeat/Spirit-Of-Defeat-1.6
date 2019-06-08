@@ -1,4 +1,4 @@
-ï»¿capital = 41
+capital = 41
 
 oob = "SPR_1936"
 if = {
@@ -59,25 +59,25 @@ if = {
 }
 
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		social_conservatism = { 
-			popularity = 47
-		}
-
-		national_collectivist = {
-			popularity = 46
-		}
-		
-		vanguard_communism = {
-			popularity = 7
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 set_convoys = 150
@@ -164,26 +164,26 @@ set_stability = 0.5
 	}
 
 	set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-		parties = {
-			social_conservatism = { 
-				popularity = 22
-			}
-
-			national_collectivist = {
-				popularity = 76
-			}
-			
-			vanguard_communism = {
-				popularity = 2
-			}
-		}
-		
-		ruling_party = national_collectivist
-		last_election = "1934.3.26"
-		election_frequency = 60
-		elections_allowed = no
-	}
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
 
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
@@ -201,7 +201,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "JosÃ© DÃ­az"
+	name = "José Díaz"
 	desc = "POLITICS_JOSE_DIAZ_DESC"
 	picture = "Portrait_Spain_Jose_Diaz.dds"
 	expire = "1965.1.1"
@@ -234,7 +234,7 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "JosÃ© Asensio Torrado"
+	name = "José Asensio Torrado"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 2
@@ -261,7 +261,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "PrÃ­ncipe Alfonso Class"
+		name = "Príncipe Alfonso Class"
 		type = light_cruiser_1
 		upgrades = {
 			ship_reliability_upgrade = 1
@@ -332,7 +332,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "JÃºpiter Class"					# minelayers
+		name = "Júpiter Class"					# minelayers
 		type = ship_hull_light_2
 		name_group = SPR_DD_HISTORICAL
 		parent_version = 0
@@ -349,7 +349,7 @@ if = {
 	}
 	# Light Cruisers #
 	create_equipment_variant = {
-		name = "RepÃºblica Class"
+		name = "República Class"
 		type = ship_hull_cruiser_1
 		name_group = SPR_CL_HISTORICAL
 		parent_version = 0
@@ -366,7 +366,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "MÃ©ndez NÃºÃ±es Class"
+		name = "Méndez Núñes Class"
 		type = ship_hull_cruiser_1
 		name_group = SPR_CL_HISTORICAL
 		parent_version = 0
@@ -384,7 +384,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "PrÃ­ncipe Alfonso Class"
+		name = "Príncipe Alfonso Class"
 		type = ship_hull_cruiser_2
 		name_group = SPR_CL_HISTORICAL
 		parent_version = 0
@@ -421,7 +421,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "EspaÃ±a Class"	
+		name = "España Class"	
 		type = ship_hull_heavy_1
 		name_group = SPR_BB_HISTORICAL
 		parent_version = 0

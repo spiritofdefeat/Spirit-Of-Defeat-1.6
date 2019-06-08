@@ -1,4 +1,4 @@
-﻿capital = 278
+capital = 278
 
 oob = "ARG_1936"
 if = {
@@ -51,8 +51,29 @@ if = {
 
 set_country_flag = monroe_doctrine
 
-
 set_convoys = 120
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 19
+        social_democracy = 14
+        social_liberal = 0
+        classic_liberal = 9
+        social_conservatism = 30
+        authoritarian_democrat = 28
+        utilitarian_despot = 0
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
 
 set_politics = {
 

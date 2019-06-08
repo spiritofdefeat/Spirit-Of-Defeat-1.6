@@ -1,4 +1,4 @@
-﻿capital = 327
+capital = 327
 
 oob = "PHI_1936"
 
@@ -67,30 +67,29 @@ set_convoys = 5
 }
 
 set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
-	parties = {
-		social_conservatism = { 
-			popularity = 82
-		}
-
-		national_collectivist = {
-			popularity = 9
-		}
-		
-		vanguard_communism = {
-			popularity = 9
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = social_conservatism
-	last_election = "1935.9.15"
-	election_frequency = 72
-	elections_allowed = yes
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
-	name = "Manuel Luis Quezón"
+	name = "Manuel Luis Quez�n"
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
@@ -108,30 +107,5 @@ create_country_leader = {
 	ideology = marxism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			social_conservatism = { 
-				popularity = 82
-			}
-
-			national_collectivist = {
-				popularity = 9
-			}
-			
-			vanguard_communism = {
-				popularity = 9
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = social_conservatism
-		last_election = "1935.9.15"
-		election_frequency = 72
-		elections_allowed = yes
 	}
 }

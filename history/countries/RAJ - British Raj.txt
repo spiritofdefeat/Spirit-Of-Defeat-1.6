@@ -1,4 +1,4 @@
-﻿capital = 439
+capital = 439
 
 oob = "RAJ_1936"
 
@@ -119,29 +119,25 @@ set_cosmetic_tag = RAJ_UK # British Raj
 }
 
 set_politics = {
-
-	parties = {
-		social_conservatism = { 
-			popularity = 17
-		}
-
-		national_collectivist = {
-			popularity = 2
-		}
-		
-		vanguard_communism = {
-			popularity = 1
-		}
-
-		authoritarian_democrat = {
-			popularity = 80
-		}
-	}
-	
 	ruling_party = authoritarian_democrat
-	last_election = "1935.11.14"
+	last_election = "1929.11.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 51
+        utilitarian_despot = 49
+        national_collectivist = 0
+        nihilistic_extremism = 0
 }
 
 create_country_leader = {
