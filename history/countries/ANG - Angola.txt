@@ -1,4 +1,4 @@
-﻿capital = 540
+capital = 540
 
 oob = "ANG_1936"
 
@@ -11,62 +11,23 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-
-	parties = {
-		totalitarian_socialism = { 
-			popularity = 8.3
-		}
-
-		vanguard_communism = {
-			popularity = 8.4
-		}
-		
-		revolutionary_socialism = {
-			popularity = 8.3
-			banned = no #default is no
-		}
-		
-		democratic_socialism = { 
-			popularity = 8.3
-		}
-
-		social_democracy = {
-			popularity = 8.4
-		}
-		
-		social_liberal = {
-			popularity = 8.3
-		}
-		
-		classic_liberal = { 
-			popularity = 8.3
-		}
-
-		social_conservatism = {
-			popularity = 8.3
-		}
-		
-		authoritarian_democrat = {
-			popularity = 8.4
-		}
-		
-		utilitarian_despot = { 
-			popularity = 8.4
-		}
-
-		national_collectivist = {
-			popularity = 8.3
-		}
-		
-		nihilistic_extremism = {
-			popularity = 8.3
-		}
-	}
-	
 	ruling_party = utilitarian_despot
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
+set_popularities = {
+	totalitarian_socialism = 0
+	vanguard_communism = 0
+	revolutionary_socialism = 0
+	democratic_socialism = 0
+        social_democracy = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservatism = 0
+        authoritarian_democrat = 0
+        utilitarian_despot = 100
+        national_collectivist = 0
+        nihilistic_extremism = 0
+}
