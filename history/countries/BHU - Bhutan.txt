@@ -31,5 +31,3 @@ set_popularities = {
         national_collectivist = 0
         nihilistic_extremism = 0
 }
-
-
