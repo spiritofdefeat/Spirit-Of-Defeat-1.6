@@ -88,6 +88,13 @@ if = {
 	set_naval_oob = "GER_1936_naval_mtg"
 }
 
+add_ideas = {
+        sour_loser
+	general_staff
+	black_reichswehr
+	economic_troubles
+	rampant_paramilitaries
+}
 
 #Trade
 create_import = {
