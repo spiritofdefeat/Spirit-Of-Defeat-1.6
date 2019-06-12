@@ -1,0 +1,90 @@
+﻿l_english: 
+
+#Parties
+NZL_national_collectivist_party:0 ""
+NZL_national_collectivist_party_long:0 ""
+NZL_vanguard_communism_party:0 ""
+NZL_vanguard_communism_party_long:0 ""
+NZL_social_conservatism_party:1 ""
+NZL_social_conservatism_party_long:0 ""
+NZL_utilitarian_despot_party:0 ""
+NZL_utilitarian_despot_party_long:0 ""
+NZL_authoritarian_democrat_party:0 ""
+NZL_authoritarian_democrat_party_long:0 ""
+NZL_social_democracy_party:0 ""
+NZL_social_democracy_party_long:0 ""
+NZL_social_liberal_party:0 ""
+NZL_social_liberal_party_long:0 ""
+NZL_classic_liberal_party:0 ""
+NZL_classic_liberal_party_long:0 ""
+NZL_totalitarian_socialism_party:0 ""
+NZL_totalitarian_socialism_party_long:0 ""
+NZL_revolutionary_socialism_party:0 ""
+NZL_revolutionary_socialism_party_long:0 ""
+NZL_democratic_socialism_party:0 ""
+NZL_democratic_socialism_party_long:0 ""
+NZL_nihilistic_extremism_party:0 ""
+NZL_nihilistic_extremism_party_long:0 ""
+
+#Country Names
+ NZL_national_collectivist:0 "New Zealand"
+ NZL_national_collectivist_DEF:0 "New Zealand"
+ NZL_nihilistic_extremism:0 "New Zealand"
+ NZL_nihilistic_extremism_DEF:0 "New Zealand"
+ NZL_totalitarian_socialism:0 "New Zealand"
+ NZL_totalitarian_socialism_DEF:0 "New Zealand"
+ NZL_utilitarian_despot:0 "New Zealand"
+ NZL_utilitarian_despot_DEF:0 "New Zealand"
+ NZL_social_conservatism:0 "New Zealand"
+ NZL_social_conservatism_DEF:0 "New Zealand"
+ NZL_authoritarian_democrat:0 "New Zealand"
+ NZL_authoritarian_democrat_DEF:0 "New Zealand"
+ NZL_democratic_socialism:0 "New Zealand"
+ NZL_democratic_socialism_DEF:0 "New Zealand"
+ NZL_revolutionary_socialism:0 "New Zealand"
+ NZL_revolutionary_socialism_DEF:0 "New Zealand"
+ NZL_social_democracy:0 "New Zealand"
+ NZL_social_democracy_DEF:0 "New Zealand"
+ NZL_social_liberal:0 "New Zealand"
+ NZL_social_liberal_DEF:0 "New Zealand"
+ NZL_classic_liberal:0 "New Zealand"
+ NZL_classic_liberal_DEF:0 "New Zealand"
+ NZL_vanguard_communism:0 "New Zealand"
+ NZL_vanguard_communism_DEF:0 "New Zealand"
+ 
+ NZL_national_collectivist_ADJ:0 "New Zealander"
+ NZL_nihilistic_extremism_ADJ:0 "New Zealander"
+ NZL_totalitarian_socialism:0 "New Zealander"
+ NZL_social_conservatism_ADJ:0 "New Zealander"
+ NZL_utilitarian_despot_ADJ:0 "New Zealander"
+ NZL_democratic_socialism_ADJ:0 "New Zealander"
+ NZL_authoritarian_democrat_ADJ:0 "New Zealander"
+ NZL_revolutionary_socialism:0 "New Zealander"
+ NZL_social_democracy_ADJ:0 "New Zealander"
+ NZL_social_liberal_ADJ:0 "New Zealander"
+ NZL_classic_liberal_ADJ:0 "New Zealander"
+ NZL_vanguard_communism_ADJ:0 "New Zealander"
+ 
+ #Cosmetic Names
+ NZL_UK_autonomy_dominion:0 "Commonwealth of New Zealand"
+ NZL_UK_autonomy_colony:0 "Six Colonies"
+ NZL_UK_autonomy_puppet:0 "New South Wales"
+ NZL_UK_autonomy_integrated_puppet:0 "British Zealand"
+ NZL_UK_autonomy_dominion_DEF:0 "the Commonwealth of New Zealand"
+ NZL_UK_autonomy_colony_DEF:0 "the Six Colonies"
+ NZL_UK_autonomy_puppet_DEF:0 "New South Wales"
+ NZL_UK_autonomy_integrated_puppet_DEF:0 "British Zealand"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+ 
