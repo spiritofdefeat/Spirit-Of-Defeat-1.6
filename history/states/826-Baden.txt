@@ -4,7 +4,7 @@ state={
 
 	state_category = large_city
 	history={
-		owner = GER
+		owner = RHI
 		victory_points = {
 			3530 10
 		}
@@ -22,11 +22,12 @@ state={
 
 		}
 		add_core_of = GER
+                add_core_of = RHI
 
 	}
 
 	provinces={
-		3679 11640 3692 6712 3530 6542 6568 6581
+		3679 11640 3692 6712 3530 6542 6568
 	}
 	manpower=2413000
 	buildings_max_level_factor=1.000
