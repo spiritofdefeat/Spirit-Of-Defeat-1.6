@@ -574,3 +574,7 @@ KON = {
 	color = rgb { 112 41 99 }
 	color_ui = rgb { 112 41 99 }
 }
+RHI = 
+        color = rgb { 27 96 82 }
+	color_ui = rgb { 27 96 82 }
+}
