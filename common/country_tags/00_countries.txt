@@ -187,6 +187,7 @@ MAC = "countries/Macedonia.txt"
 LIV = "countries/Livonia.txt"
 KUR = "countries/Kurdistan.txt"
 KON = "countries/Konstantinopolis.txt"
+RHI = "countries/Rhineland.txt"
 #Countries starting in exile
 SRO	= "countries/SR Austria.txt"
 
