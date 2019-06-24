@@ -1,0 +1,22 @@
+state=
+{
+	id=837
+	name="STATE_837"
+	
+	state_category = town
+	
+	manpower = 34312
+
+	history=
+	{
+		owner = GER
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GER
+	}
+
+	provinces=
+	{
+6581	}
+}
