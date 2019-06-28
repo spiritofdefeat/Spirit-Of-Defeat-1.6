@@ -1,0 +1,13 @@
+spriteTypes = {
+
+#Ministers
+
+	
+	spriteType = {
+		name = "GFX_idea_jewish_muslim_divide"
+		texturefile = "gfx/interface/ideas/ISR/jewish_muslim_divide.dds"
+	}
+	
+
+
+}
