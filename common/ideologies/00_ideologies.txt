@@ -1,20 +1,20 @@
 ideologies = {
 
-	totalitarian_socialism = {
+	vanguard_communism = {
 
         types = {
 
-            totalitarian_socialism_subtype = {}
-			anti-revisionist = {}
-			national_bolshevik = {}
+            vanguard_communism_subtype = {}
+			leninist = {}
+			trotskyist = {}
 
         }
 
         dynamic_faction_names = {
-            "FACTION_NAME_TOTALITARIAN_SOCIALISM"
+            "FACTION_NAME_VANGUARD_COMMUNISM"
         }
 
-        color = { 225 0 0 }
+        color = { 170 0 0 } #255 65 65 could work too
 
         rules = {
 			can_force_government = no
@@ -39,21 +39,21 @@ ideologies = {
 
     }
 
-    vanguard_communism = {
+    totalitarian_socialism = {
 
         types = {
 
-            vanguard_communism_subtype = {}
-			leninist = {}
-			trotskyist = {}
+            totalitarian_socialism_subtype = {}
+			anti-revisionist = {}
+			national_bolshevik = {}
 
         }
 
         dynamic_faction_names = {
-            "FACTION_NAME_VANGUARD_COMMUNISM"
+            "FACTION_NAME_TOTALITARIAN_SOCIALISM"
         }
 
-        color = { 170 0 0 } #255 65 65 could work too
+        color = { 225 0 0 }
 
         rules = {
 			can_force_government = no
