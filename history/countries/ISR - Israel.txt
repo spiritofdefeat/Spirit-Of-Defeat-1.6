@@ -57,53 +57,48 @@ set_convoys = 5
 	}
 }
 
+add_ideas = {
+    jewish_muslim_divide
+}
+
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_liberal
 	last_election = "1929.11.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	totalitarian_socialism = 0
-	vanguard_communism = 0
-	revolutionary_socialism = 0
-	democratic_socialism = 0
+	vanguard_communism = 2
+	revolutionary_socialism = 1
+	democratic_socialism = 21
         social_democracy = 0
-        social_liberal = 0
-        classic_liberal = 0
-        social_conservatism = 0
-        authoritarian_democrat = 51
-        utilitarian_despot = 49
-        national_collectivist = 0
+        social_liberal = 48
+        classic_liberal = 5
+        social_conservatism = 17
+        authoritarian_democrat = 1
+        utilitarian_despot = 2
+        national_collectivist = 3
         nihilistic_extremism = 0
 }
+
+create_country_leader = {
+	name = "Chaim Weizmann"
+	desc = ""
+	picture = "gfx/leaders/ISR/Portrait_Israel_Chaim_Weizmann.dds"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
 
 create_country_leader = {
 	name = "David Ben-Gurion"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Itzhak Gaster"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = national_collectivist_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rudolf Szabó"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = despotism
+	ideology = democratic_socialism_subtype
 	traits = {
 		#
 	}
@@ -113,7 +108,7 @@ create_country_leader = {
 	name = "Shmuel Mikunis"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	ideology = leninism
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
