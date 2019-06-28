@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+ISR_national_collectivist_party:0 "National Front"
+ISR_national_collectivist_party_long:0 "National Front"
+ISR_vanguard_communism_party:0 "PKP"
+ISR_vanguard_communism_party_long:0 "Palestinische Komunistische Partei"
+ISR_social_conservatism_party:0 "Hapoel HaMizrachi"
+ISR_social_conservatism_party_long:0 "Hapoel HaMizrachi"
+ISR_utilitarian_despot_party:0 "Home Rule"
+ISR_utilitarian_despot_party_long:0 "Home Rule Party"
+ISR_authoritarian_democrat_party:0 "Agudat Yisrael"
+ISR_authoritarian_democrat_party_long:0 "Agudath Israel"
+ISR_social_democracy_party:0 "MAPAI"
+ISR_social_democracy_party_long:0 "Mifleget Poalei Eretz Yisrael"
+ISR_social_liberal_party:0 "General Zionists"
+ISR_social_liberal_party_long:0 "HaTzionim HaKlaliym"
+ISR_classic_liberal_party:0 "General Zionists"
+ISR_classic_liberal_party_long:0 "HaTzionim HaKlaliym"
+ISR_totalitarian_socialism_party:0 "Ahdut HaAvoda"
+ISR_totalitarian_socialism_party_long:0 "Ahdut HaAvoda"
+ISR_revolutionary_socialism_party:0 "HaShomer HaTzair"
+ISR_revolutionary_socialism_party_long:0 "HaShomer HaTzair"
+ISR_democratic_socialism_party:0 "MAPAI"
+ISR_democratic_socialism_party_long:0 "Mifleget Poalei Eretz Yisrael"
+ISR_nihilistic_extremism_party:0 "ITB"
+ISR_nihilistic_extremism_party_long:0 "Iunge Tsiuneyst Bavegung"
+
+#Country Names
+ ISR_national_collectivist:0 "International Palestine"
+ ISR_national_collectivist_DEF:0 "International Mandate of Palestine"
+ ISR_nihilistic_extremism:0 "International Palestine"
+ ISR_nihilistic_extremism_DEF:0 "International Mandate of Palestine"
+ ISR_totalitarian_socialism:0 "International Palestine"
+ ISR_totalitarian_socialism_DEF:0 "International Mandate of Palestine"
+ ISR_utilitarian_despot:0 "International Palestine"
+ ISR_utilitarian_despot_DEF:0 "International Mandate of Palestine"
+ ISR_social_conservatism:0 "International Palestine"
+ ISR_social_conservatism_DEF:0 "International Mandate of Palestine"
+ ISR_authoritarian_democrat:1 "International Palestine"
+ ISR_authoritarian_democrat_DEF:1 "International Mandate of Palestine"
+ ISR_democratic_socialism:0 "International Palestine"
+ ISR_democratic_socialism_DEF:0 "International Mandate of Palestine"
+ ISR_revolutionary_socialism:0 "International Palestine"
+ ISR_revolutionary_socialism_DEF:0 "International Mandate of Palestine"
+ ISR_social_democracy:0 "International Palestine"
+ ISR_social_democracy_DEF:0 "International Mandate of Palestine"
+ ISR_social_liberal:0 "International Palestine"
+ ISR_social_liberal_DEF:0 "International Mandate of Palestine"
+ ISR_classic_liberal:0 "International Palestine"
+ ISR_classic_liberal_DEF:0 "International Mandate of Palestine"
+ ISR_vanguard_communism:0 "International Palestine"
+ ISR_vanguard_communism_DEF:0 "International Mandate of Palestine"
+ 
+ ISR_national_collectivist_ADJ:0 "Palestinian"
+ ISR_nihilistic_extremism_ADJ:0 "Palestinian"
+ ISR_totalitarian_socialism:0 "Palestinian"
+ ISR_social_conservatism_ADJ:0 "Palestinian"
+ ISR_utilitarian_despot_ADJ:0 "Palestinian"
+ ISR_democratic_socialism_ADJ:0 "Palestinian"
+ ISR_authoritarian_democrat_ADJ:0 "Palestinian"
+ ISR_revolutionary_socialism:0 "Palestinian"
+ ISR_social_democracy_ADJ:0 "Palestinian"
+ ISR_social_liberal_ADJ:0 "Palestinian"
+ ISR_classic_liberal_ADJ:0 "Palestinian"
+ ISR_vanguard_communism_ADJ:0 "Palestinian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
