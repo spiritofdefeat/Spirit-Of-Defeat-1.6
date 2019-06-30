@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservatism
 			ideas = {
                                 #
 			}
@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = classic_liberal
 			ideas = {
 				#
 			}
@@ -29,7 +29,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservatism
 			available = { has_dlc = "Man the Guns" }
 			ideas = {
 				#
@@ -40,7 +40,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservatism
 			available = { NOT = { has_dlc = "Man the Guns" } }
 			ideas = {
 				#
@@ -51,7 +51,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = utilitarian_despot
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
 				#
@@ -62,7 +62,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = utilitarian_despot
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
 				#
@@ -73,7 +73,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = authoritarian_democrat
 			ideas = {
 				#
 			}	
@@ -83,7 +83,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = authoritarian_democrat
 			ideas = {
 				#
 			}	
@@ -93,7 +93,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = authoritarian_democrat
 			ideas = {
 				#
 			}
