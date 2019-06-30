@@ -54,11 +54,6 @@ if = {
 	}
 }
 
-  declare_war_on = {
-		target = KUR
-		type = annex_everything
-	}
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -158,10 +153,10 @@ set_popularities = {
 set_convoys = 20
 set_stability = 0.55
 
-# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
+# AtatÃ¼rk still alive in '36, however, InÃ¶nÃ¼ was already Prime Minister (but not President)
 create_country_leader = {
-	name = "Ismet Inönü"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	name = "Ismet InÃ¶nÃ¼"
+	desc = "POLITICS_ISMET_INÃ–NÃœ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
 	ideology = despotism
@@ -171,8 +166,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mustafa Kemal Atatürk"
-	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+	name = "Mustafa Kemal AtatÃ¼rk"
+	desc = "POLITICS_MUSTAFA_KEMAL_ATATÃœRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1938.11.10"
 	ideology = despotism
@@ -182,7 +177,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sefik Hüsnü"
+	name = "Sefik HÃ¼snÃ¼"
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
 	expire = "1965.1.1"
@@ -193,7 +188,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Celâl Bayar"
+	name = "CelÃ¢l Bayar"
 	desc = "POLITICS_CELAL_BAYAR_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
@@ -203,7 +198,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Fevzi Çakmak"
+	name = "Fevzi Ã‡akmak"
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
@@ -302,7 +297,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Birinci Inönü Class"				
+		name = "Birinci InÃ¶nÃ¼ Class"				
 		type = ship_hull_submarine_1
 		name_group = TUR_SS_HISTORICAL
 		parent_version = 0
