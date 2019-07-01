@@ -87,7 +87,7 @@ germany_kaiser = {
 		GER = {
 			OR = {
 				exists = no
-				has_government = fascism
+				has_government = national_collectivist
 			}
 		}
 	}
@@ -120,8 +120,8 @@ germany_hungary_kaiser = {
 		HUN = {
 			OR = {
 				exists = no
-				has_government = fascism
-				has_government = communism
+				has_government = national_collectivist
+				has_government = vanguard_communism
 			}
 		}
 	}

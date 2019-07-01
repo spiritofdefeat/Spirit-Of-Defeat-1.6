@@ -112,7 +112,7 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_collectivist
 			}
 			
 			modifier = {
@@ -160,20 +160,20 @@ ideas = {
 
 	hidden_ideas = {
 
-		fascism_drift_ARG = {
+		national_collectivist_drift_ARG = {
 
 			allowed = {
 				always = no
 			}
 	
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = national_collectivist
 			}
 			
 			removal_cost = -1
 			
 			modifier = {
-				fascism_drift = 0.2
+				national_collectivist_drift = 0.2
 			}
 
 		}

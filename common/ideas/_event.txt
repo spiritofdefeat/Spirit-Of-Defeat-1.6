@@ -7,7 +7,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_national_collectivist_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.05
@@ -26,7 +26,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_communism_drift_bonus
+			picture = generic_vanguard_communism_drift_bonus
 			
 			modifier = {
 				conscription = -0.002
@@ -64,7 +64,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_national_collectivist_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
@@ -79,7 +79,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_communism_drift_bonus
+			picture = generic_vanguard_communism_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
@@ -102,7 +102,7 @@ ideas = {
 		}
 
 
-		fascism_defeated = {
+		national_collectivist_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -116,7 +116,7 @@ ideas = {
 			}
 		}
 
-		communism_defeated = {
+		vanguard_communism_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -166,7 +166,7 @@ ideas = {
 
 		anti_soviet_pact_refused_call = {
 
-			picture = generic_communism_drift_bonus
+			picture = generic_vanguard_communism_drift_bonus
 			
 			removal_cost = -1 # Or make removable, with high cost?
 			

@@ -11,7 +11,7 @@ ideologies = {
         }
 
         dynamic_faction_names = {
-            "FACTION_NAME_VANGUARD_COMMUNISM"
+            "FACTION_NAME_vanguard_communism"
         }
 
         color = { 170 0 0 } #255 65 65 could work too

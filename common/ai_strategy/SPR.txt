@@ -13,7 +13,7 @@
 spanish_civil_war_GER_expatriate = {
 	enable = {
 		GER = { has_completed_focus = GER_expatriate_the_communists }
-		NOT = { has_government = fascism }
+		NOT = { has_government = national_collectivist }
 		SPR = { has_civil_war = yes }
 		NOT = { has_global_flag = scw_over }
 	}
@@ -38,14 +38,14 @@ ITA_and_GER_help_SPA_win_civil_war = {
 	enable = {
 		date < 1939.1.1
 		original_tag = SPR
-		has_government = fascism
+		has_government = national_collectivist
 		SPR = { has_civil_war = yes }
 		NOT = { has_global_flag = scw_over }
 	}
 	abort = {
 		OR = {
 			date > 1939.1.1
-			NOT = { has_government = fascism }
+			NOT = { has_government = national_collectivist }
 			SPR = { has_civil_war = no }
 			has_global_flag = scw_over
 		}

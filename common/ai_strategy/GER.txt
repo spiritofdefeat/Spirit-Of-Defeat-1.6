@@ -672,7 +672,7 @@ spain_ally = {
 		tag = GER
 		has_completed_focus = GER_nationalist_spain_ally
 		country_exists = SPR
-		SPR = { has_government = fascism } # TODO Find way to detect dynamic revolter tag
+		SPR = { has_government = national_collectivist } # TODO Find way to detect dynamic revolter tag
 	}
 	abort = {
 		NOT = { country_exists = SPR }
@@ -1418,14 +1418,14 @@ GER_industry_we_are_the_baddies_but_not_yet = {
 Axis_care_less_about_making_friends = {
 
 	enable = {
-		has_government = fascism
+		has_government = national_collectivist
 		is_in_faction = yes
 		manpower_per_military_factory < 3000
 		has_war = yes
 	}
 	abort = {
 		OR = {
-			NOT = { has_government = fascism }
+			NOT = { has_government = national_collectivist }
 			is_in_faction = no
 			manpower_per_military_factory > 3000
 			has_war = no
@@ -1442,7 +1442,7 @@ Axis_care_less_about_making_friends = {
 GER_wants_civ = {
 	enable = {
 		tag = GER
-		has_government = fascism
+		has_government = national_collectivist
 		date < 1937.9.15
 		has_war = no
 	}
@@ -1456,7 +1456,7 @@ GER_wants_civ = {
 GER_wants_synth = {
 	enable = {
 		tag = GER
-		has_government = fascism
+		has_government = national_collectivist
 		date > 1937.10.20
 		has_war = no
 	}
@@ -1514,14 +1514,14 @@ GER_share_borders_with_ITA_against_SOV = {
 GER_we_dont_fight_pathetic_sweden = { # :O
 	enable = {
 		tag = GER
-		has_government = fascism
+		has_government = national_collectivist
 		SWE = {
-			has_idea = neutrality_idea
+			has_idea = authoritarian_democrat_idea
 		}
 	}
 	abort = {
 		SWE = {
-			not = { has_idea = neutrality_idea }
+			not = { has_idea = authoritarian_democrat_idea }
 		}
 	}
 	ai_strategy = {

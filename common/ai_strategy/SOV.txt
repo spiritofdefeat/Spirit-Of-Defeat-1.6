@@ -424,7 +424,7 @@ germany_enemy = {
 spanish_civil_war_SOV = {
 	enable = {
 		original_tag = SOV
-		has_government = communism
+		has_government = vanguard_communism
 		SPR = { has_civil_war = yes }
 		NOT = { has_global_flag = scw_over }
 	}
