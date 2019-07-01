@@ -83,6 +83,9 @@ ideologies = {
         types = {
 
             revolutionary_socialism_subtype = {}
+			anarcho_communist = {}
+			socialist_revolutionary = {}
+			libertarian_socialist = {}
 
         }
 
@@ -450,6 +453,7 @@ ideologies = {
 			cioranist_nihilism = {}
 			pronayist_nihilism = {}
 			radical_paramilitarist = {}
+			right_wing_terrorist = {}
 
         }
 
